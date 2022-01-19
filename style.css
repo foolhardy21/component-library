@@ -15,12 +15,21 @@ body {
     width: 350px;
     height: 300px;
 }
+.card-wrapper-header {
+    width: 350px;
+    height: 400px;
+}
 
 .card-main {
     height: 90%;
 }
 .card-main-text-media {
     height: 85%;
+}
+.card-main-header {
+    height: 88%;
+    display: flex;
+    flex-direction: column;
 }
 .card-main:hover {
     cursor: pointer;
@@ -39,6 +48,12 @@ body {
     width: 100%;
     height: 70%;
 }
+.card-image-header {
+    width: 100%;
+    height: 55%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
 
 .card-header {
     padding: 0;
@@ -49,7 +64,9 @@ body {
     position: relative;
     bottom: 80px;
 }
-
+.card-header-header {
+    order: -1;
+}
 .card-heading {
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
@@ -79,7 +96,6 @@ body {
     font-size: 0.9rem;
     color: #757575;
     margin: 0;
-    padding: 10px 15px;
     letter-spacing: 0.1px;
 }
 .card-text-basic {
@@ -89,6 +105,9 @@ body {
     position: relative;
     bottom: 80px;
     padding: 10px 15px;
+}
+.card-text-header {
+    padding: 15px 15px;
 }
 .card-footer {
     display: flex;
