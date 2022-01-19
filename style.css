@@ -2,30 +2,54 @@
 body {
     background: #f7f7f7;
 }
+
+.card-wrapper {
+    background: #ffffff;
+    border-radius: 5px;
+}
+.card-wrapper-basic {
+    width: 350px;
+    height: 400px;
+}
+.card-wrapper-text-media {
+    width: 350px;
+    height: 300px;
+}
+
 .card-main {
-    height: 88%;
+    height: 90%;
+}
+.card-main-text-media {
+    height: 85%;
 }
 .card-main:hover {
     cursor: pointer;
 }
-.card-wrapper {
-    width: 350px;
-    height: 400px;
-    background: #ffffff;
-    border-radius: 5px;
-}
+
 .card-image {
-    width: 100%;
-    height: 55%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     object-fit: cover;
 }
+.card-image-basic {
+    width: 100%;
+    height: 55%;
+}
+.card-image-text-media {
+    width: 100%;
+    height: 70%;
+}
+
 .card-header {
     padding: 0;
     margin: 0;
-    padding: 20px 10px;
+    padding: 20px 15px;
 }
+.card-header-text-media {
+    position: relative;
+    bottom: 80px;
+}
+
 .card-heading {
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
@@ -33,6 +57,9 @@ body {
     font-weight: bold;
     margin: 0;
     letter-spacing: 0.5px;
+}
+.card-heading-text-media {
+    color: #ffffff;
 }
 .card-subheading {
     font-family: 'Roboto', sans-serif;
@@ -43,13 +70,25 @@ body {
     font-weight: 500;
     letter-spacing: 0.5px;
 }
+.card-subheading-text-media {
+    color: #ffffff;
+}
+
 .card-text {
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     color: #757575;
     margin: 0;
-    padding: 10px;
-    letter-spacing: 0.3px;
+    padding: 10px 15px;
+    letter-spacing: 0.1px;
+}
+.card-text-basic {
+    padding: 10px 15px;
+}
+.card-text-text-media {
+    position: relative;
+    bottom: 80px;
+    padding: 10px 15px;
 }
 .card-footer {
     display: flex;
@@ -75,6 +114,7 @@ body {
     cursor: pointer;
     background: #f3e5f5;
 }
+
 .card-icon-wrapper {
     display: flex;
     align-items: center;
