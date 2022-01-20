@@ -185,11 +185,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 60%;
     position: fixed;
     bottom: 10px;
     left: 50%;
-    margin-left: -25%;
+    margin-left: -30%;
     padding: 10px;
 }
 .snackbar-message {
@@ -204,7 +204,6 @@ body {
     border-style: none;
     border-radius: 5px;
     font-size: 1rem;
-    font-weight: bold;
     letter-spacing: 0.3px;
     margin-left: 10px;
 }
@@ -282,4 +281,77 @@ body {
 }
 .toggle-badge:hover {
     cursor: pointer;
+}
+
+.drawer {
+    width: 20%;
+    border-radius: 5px;
+    padding: 10px;
+    background: #ffffff;
+}
+.drawer-heading {
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+.drawer-subheading {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    color: #616161;
+}
+.drawer-menu-list {
+    padding: 0;
+}
+.drawer-menu-item {
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.drawer-menu-item > img {
+    margin-right: 20px;
+    opacity: 0.7;
+}
+.drawer-menu-item:hover {
+    background: #e7e6e6;
+    cursor: pointer;
+}
+.drawer-menu-item:active {
+    color: blueviolet;
+    background: #f3e5f5;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .drawer {
+        width: 30%;
+    }
+}
+@media (max-width: 700px) {
+    .drawer {
+        width: 40%;
+    }
+}
+
+@media (max-width: 450px) {
+    .drawer {
+        width: 50%;
+    }
+    .snackbar {
+        width: 80%;
+        margin-left: -40%;
+    }
+    .snackbar-dismiss {
+        display: none;
+    }
 }
