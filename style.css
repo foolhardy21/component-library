@@ -326,7 +326,7 @@ body {
     background: #e7e6e6;
     cursor: pointer;
 }
-.drawer-menu-item:active {
+.drawer-menu-item-active {
     color: blueviolet;
     background: #f3e5f5;
     cursor: pointer;
