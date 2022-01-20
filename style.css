@@ -26,10 +26,11 @@ body {
     position: absolute;
     top: 5px;
     right: 5px;
+    opacity: 0.5;
 }
 .card-dismiss:hover {
     cursor: pointer;
-    color: #ffffff;
+    opacity: 1;
 }
 
 .card-main {
@@ -49,6 +50,7 @@ body {
 }
 .card-main:hover {
     cursor: pointer;
+    background: rgb(240, 240, 240);
 }
 
 .card-image {
@@ -171,4 +173,49 @@ body {
 }
 .card-icon:hover {
     cursor: pointer;
+}
+
+.snackbar {
+    background: #424242;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -25%;
+    padding: 10px;
+}
+.snackbar-message {
+    display: flex;
+    align-items: center;
+}
+.snackbar-action-btn {
+    padding: 5px 10px;
+    background: transparent;
+    color: blueviolet;
+    text-transform: uppercase;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    margin-left: 10px;
+}
+.snackbar-action-btn:hover {
+    cursor: pointer;
+}
+.snackbar-action-btn:active {
+    background: rgb(162, 134, 187);
+    opacity: 0.5;
+}
+.snackbar-dismiss:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
