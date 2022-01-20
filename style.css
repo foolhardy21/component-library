@@ -219,3 +219,67 @@ body {
     cursor: pointer;
     opacity: 0.5;
 }
+
+.badge-small {
+    background: lightsalmon;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 0.8rem;
+}
+.badge-large {
+    background: lightsalmon;
+    border-radius: 50%;
+    padding: 3px 8px;
+    font-size: 1.3rem;
+}
+
+.button-badge-wrapper {
+    background: lightgreen;
+    display: inline-block;
+    position: relative;
+}
+.button-basic {
+    border-style: none;
+    border-radius: 5px;
+    background: #673ab7;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+.button-basic:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.button-badge {
+    position: absolute;
+    bottom: 70%;
+    left: 80%;
+}
+.button-badge:hover {
+    cursor: pointer;
+}
+
+.button-toggle-badge {
+    border-style: none;
+    border-radius: 5px;
+    background: #673ab7;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+.button-toggle-badge:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.toggle-badge {
+    position: absolute;
+    bottom: 70%;
+    left: 80%;
+}
+.toggle-badge:hover {
+    cursor: pointer;
+}
