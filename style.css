@@ -1,10 +1,22 @@
 
+:root {
+    --black-text: #000000;
+    --white-text: #ffffff;
+    --gray-text: #757575;
+    --violet-text: blueviolet;
+    
+    --white-background: #ffffff;
+    --gray-background: #424242;
+    --violet-background: #f3e5f5;
+    --hover-background: rgb(240, 240, 240);
+}
+
 body {
     background: #f7f7f7;
 }
 
 .card-wrapper {
-    background: #ffffff;
+    background: var(--white-background);
     border-radius: 5px;
     position: relative;
     padding-bottom: 10px;
@@ -50,7 +62,7 @@ body {
 }
 .card-main:hover {
     cursor: pointer;
-    background: rgb(240, 240, 240);
+    background: var(--hover-background);
 }
 
 .card-image {
@@ -98,25 +110,25 @@ body {
     letter-spacing: 0.5px;
 }
 .card-heading-text-media {
-    color: #ffffff;
+    color: var(--black-text);
 }
 .card-subheading {
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
-    color: #757575;
+    color: var(--gray-text);
     margin: 0;
     margin-top: 5px;
     font-weight: 500;
     letter-spacing: 0.5px;
 }
 .card-subheading-text-media {
-    color: #ffffff;
+    color: var(--gray-text);
 }
 
 .card-text {
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
-    color: #757575;
+    color: var(--gray-text);
     margin: 0;
     letter-spacing: 0.1px;
 }
@@ -149,7 +161,7 @@ body {
     background: transparent;
     border-style: none;
     border-radius: 5px;
-    color: blueviolet;
+    color: var(--violet-text);
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -160,7 +172,7 @@ body {
 }
 .card-button:hover {
     cursor: pointer;
-    background: #f3e5f5;
+    background: var(--violet-background);
 }
 
 .card-icon-wrapper {
@@ -176,8 +188,8 @@ body {
 }
 
 .snackbar {
-    background: #424242;
-    color: #ffffff;
+    background: var(--gray-background);
+    color: var(--white-text);
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     letter-spacing: 0.3px;
@@ -199,7 +211,7 @@ body {
 .snackbar-action-btn {
     padding: 5px 10px;
     background: transparent;
-    color: blueviolet;
+    color: var(--violet-text);
     text-transform: uppercase;
     border-style: none;
     border-radius: 5px;
@@ -211,7 +223,7 @@ body {
     cursor: pointer;
 }
 .snackbar-action-btn:active {
-    background: rgb(162, 134, 187);
+    background: var(--violet-background);
     opacity: 0.5;
 }
 .snackbar-dismiss:hover {
@@ -220,28 +232,29 @@ body {
 }
 
 .badge-small {
-    background: lightsalmon;
+    background: var(--white-background);
+    color: var(--black-text);
     border-radius: 50%;
     padding: 5px 8px;
     font-size: 0.8rem;
 }
 .badge-large {
-    background: lightsalmon;
+    background: var(--white-background);
+    color: var(--black-text);
     border-radius: 50%;
     padding: 3px 8px;
     font-size: 1.3rem;
 }
 
 .button-badge-wrapper {
-    background: lightgreen;
     display: inline-block;
     position: relative;
 }
 .button-basic {
     border-style: none;
     border-radius: 5px;
-    background: #673ab7;
-    color: #ffffff;
+    background: var(--violet-text);
+    color: var(--white-text);
     padding: 5px 10px;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
@@ -263,8 +276,8 @@ body {
 .button-toggle-badge {
     border-style: none;
     border-radius: 5px;
-    background: #673ab7;
-    color: #ffffff;
+    background: var(--violet-text);
+    color: var(--white-text);
     padding: 5px 10px;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
@@ -287,10 +300,11 @@ body {
     width: 20%;
     border-radius: 5px;
     padding: 10px;
-    background: #ffffff;
+    background: var(--white-background);
 }
 .drawer-heading {
     margin: 0;
+    color: var(--black-text);
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.5px;
@@ -300,7 +314,7 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.5px;
     font-size: 0.9rem;
-    color: #616161;
+    color: var(--gray-text);
 }
 .drawer-menu-list {
     padding: 0;
@@ -323,12 +337,12 @@ body {
     opacity: 0.7;
 }
 .drawer-menu-item:hover {
-    background: #e7e6e6;
+    background: var(--hover-background);
     cursor: pointer;
 }
 .drawer-menu-item-active {
-    color: blueviolet;
-    background: #f3e5f5;
+    color: var(--violet-text);
+    background: var(--violet-background);
     cursor: pointer;
 }
 

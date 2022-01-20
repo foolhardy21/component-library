@@ -14,6 +14,5 @@ drawerItems.forEach((item) => {
             item2.classList.remove('drawer-menu-item-active')    
         })
         item.classList.add('drawer-menu-item-active')
-    })
-    
+    })  
 })
