@@ -445,6 +445,77 @@ body {
     background: var(--violet-background);
 }
 
+.tab-wrapper {
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+}
+.tab-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    list-style: none;
+    color: var(--gray-text);
+    justify-self: stretch;
+    text-align: center;
+    border-radius: 0.1rem;
+}
+.tabitem-lead-icon {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    list-style: none;
+    color: var(--gray-text);
+    border-radius: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tabitem-top-icon {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    list-style: none;
+    color: var(--gray-text);
+    border-radius: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tabitem-lead-icon > img {
+    width: 1.3rem;
+}
+.tabitem-top-icon > img {
+    width: 1.3rem;
+}
+.tab-item:hover {
+    background: var(--violet-background);
+    cursor: pointer;
+}
+.tabitem-lead-icon:hover {
+    background: var(--violet-background);
+    cursor: pointer;
+}
+.tabitem-top-icon:hover {
+    background: var(--violet-background);
+    cursor: pointer;
+}
+.tab-item-selected {
+    color: var(--violet-text);
+    border-bottom-style: solid;
+    border-bottom-width: 0.15rem;
+    border-color: var(--violet-text);
+}
+
 @media (max-width: 900px) {
     html {
         font-size: 80%;
