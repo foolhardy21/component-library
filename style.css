@@ -197,11 +197,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 40%;
     position: fixed;
     bottom: 10px;
     left: 50%;
-    margin-left: -30%;
+    margin-left: -20%;
     padding: 10px;
 }
 .snackbar-message {
@@ -345,6 +345,50 @@ body {
     background: var(--violet-background);
     cursor: pointer;
 }
+
+.header {
+    padding: 15px;
+    background: var(--violet-text);
+    display: grid;
+    align-items: center;
+    grid-template-areas: 
+    "nav heading heading ... ... icons";
+}
+.header-prominent {
+    grid-template-areas: 
+    "nav ... ... ... ... icons"
+    "... heading heading ... ... ...";
+}
+.header-collapsed {
+    grid-template-areas: "nav icons";
+    width: 100px;
+    border-bottom-right-radius: 20px;
+}
+.header-navigation {
+    grid-area: nav;
+}
+.header-navigation:hover {
+    cursor: pointer;
+}
+.header-heading {
+    font-family: 'Roboto', sans-serif;
+    color: var(--white-text);
+    grid-area: heading;
+    text-transform: uppercase;
+    font-weight:bold;
+    letter-spacing: 0.4px;
+}
+.header-icons-wrapper {
+    grid-area: icons;
+    justify-self: end;
+}
+.header-icon {
+    margin: 0 10px;
+}
+.header-icon:hover {
+    cursor: pointer;
+}
+
 
 @media (max-width: 800px) {
     .drawer {
