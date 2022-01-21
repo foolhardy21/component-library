@@ -453,7 +453,6 @@ body {
 .tab-item {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    font-weight: bold;
     letter-spacing: 0.01rem;
     text-transform: uppercase;
     padding: 1rem 0;
@@ -466,7 +465,6 @@ body {
 .tabitem-lead-icon {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    font-weight: bold;
     letter-spacing: 0.01rem;
     text-transform: uppercase;
     padding: 1rem 0;
@@ -475,12 +473,11 @@ body {
     border-radius: 0.1rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .tabitem-top-icon {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    font-weight: bold;
     letter-spacing: 0.01rem;
     text-transform: uppercase;
     padding: 1rem 0;
@@ -492,10 +489,12 @@ body {
     align-items: center;
 }
 .tabitem-lead-icon > img {
+    opacity: 0.6;
     width: 1.3rem;
 }
 .tabitem-top-icon > img {
     width: 1.3rem;
+    opacity: 0.6;
 }
 .tab-item:hover {
     background: var(--violet-background);
@@ -514,6 +513,49 @@ body {
     border-bottom-style: solid;
     border-bottom-width: 0.15rem;
     border-color: var(--violet-text);
+}
+
+.chips-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+    background: var(--violet-background);
+    border-radius: 5px;
+}
+.chip {
+    background: var(--violet-text);
+    color: var(--white-text);
+    border-radius: 15px;
+    padding: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.01rem;
+    margin: 0.5rem;
+}
+.chip-with-dismiss {
+    background: var(--violet-text);
+    color: var(--white-text);
+    border-radius: 15px;
+    padding: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.01rem;
+    margin: 0.5rem;
+    display: flex;
+    align-self: center;
+}
+.chip-with-dismiss > img {
+    width: 1.3rem;
+    margin-left: 0.2rem;
+    opacity: 0.5;
+}
+.chip-with-dismiss > img:hover {
+    opacity: 1;
+}
+
+.chip:hover {
+    cursor: pointer;
+}
+.chip-with-dismiss:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 900px) {
