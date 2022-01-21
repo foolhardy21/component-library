@@ -177,40 +177,45 @@ body {
     color: var(--white-text);
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.01rem;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 30rem;
     position: fixed;
-    bottom: 10px;
+    bottom: 1rem;
     left: 50%;
-    margin-left: -20%;
-    padding: 10px;
+    margin-left: -15rem;
+    padding: 0.5rem;
 }
+
 .snackbar-message {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
 }
+
 .snackbar-action-btn {
-    padding: 5px 10px;
+    padding: 0.5rem;
     background: transparent;
     color: var(--violet-text);
     text-transform: uppercase;
     border-style: none;
     border-radius: 5px;
     font-size: 1rem;
-    letter-spacing: 0.3px;
-    margin-left: 10px;
+    letter-spacing: 0.01rem;
 }
+
 .snackbar-action-btn:hover {
     cursor: pointer;
 }
+
 .snackbar-action-btn:active {
     background: var(--violet-background);
     opacity: 0.5;
 }
+
 .snackbar-dismiss:hover {
     cursor: pointer;
     opacity: 0.5;
@@ -220,14 +225,14 @@ body {
     background: var(--white-background);
     color: var(--black-text);
     border-radius: 50%;
-    padding: 5px 8px;
+    padding: 0.5rem;
     font-size: 0.8rem;
 }
 .badge-large {
     background: var(--white-background);
     color: var(--black-text);
     border-radius: 50%;
-    padding: 3px 8px;
+    padding: 0.5rem 0.8rem;
     font-size: 1.3rem;
 }
 
@@ -235,12 +240,13 @@ body {
     display: inline-block;
     position: relative;
 }
+
 .button-basic {
     border-style: none;
     border-radius: 5px;
     background: var(--violet-text);
     color: var(--white-text);
-    padding: 5px 10px;
+    padding: 0.5rem;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     font-size: 1.1rem;
@@ -263,7 +269,7 @@ body {
     border-radius: 5px;
     background: var(--violet-text);
     color: var(--white-text);
-    padding: 5px 10px;
+    padding: 0.5rem;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     font-size: 1.1rem;
@@ -282,9 +288,9 @@ body {
 }
 
 .drawer {
-    width: 20%;
+    width: 15rem;
     border-radius: 5px;
-    padding: 10px;
+    padding: 1rem;
     background: var(--white-background);
 }
 .drawer-heading {
@@ -292,12 +298,12 @@ body {
     color: var(--black-text);
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.01rem;
 }
 .drawer-subheading {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.01rem;
     font-size: 0.9rem;
     color: var(--gray-text);
 }
@@ -309,17 +315,26 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     font-weight: 500;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.01rem;
     list-style: none;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    padding: 10px;
-    margin: 5px 0;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
     border-radius: 5px;
 }
 .drawer-menu-item > img {
-    margin-right: 20px;
+    width: 1.3rem;
+    margin: 0 0.5rem;
     opacity: 0.7;
+}
+.drawer-menu-icon-right {
+    justify-content: space-between;
+}
+.drawer-icon-right {
+    width: 1.3rem;
+    order: 1;
 }
 .drawer-menu-item:hover {
     background: var(--hover-background);
@@ -332,7 +347,7 @@ body {
 }
 
 .header {
-    padding: 15px;
+    padding: 1rem;
     background: var(--violet-text);
     display: grid;
     align-items: center;
@@ -346,10 +361,11 @@ body {
 }
 .header-collapsed {
     grid-template-areas: "nav icons";
-    width: 100px;
+    width: 5rem;
     border-bottom-right-radius: 20px;
 }
 .header-navigation {
+    width: 1.3rem;
     grid-area: nav;
 }
 .header-navigation:hover {
@@ -362,14 +378,15 @@ body {
     grid-area: heading;
     text-transform: uppercase;
     font-weight:bold;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.01rem;
 }
 .header-icons-wrapper {
     grid-area: icons;
     justify-self: end;
 }
 .header-icon {
-    margin: 0 10px;
+    width: 1.3rem;
+    margin: 0 0.5rem;
 }
 .header-icon:hover {
     cursor: pointer;
@@ -377,28 +394,29 @@ body {
 }
 
 .dialog {
-    width: 25%;
+    width: 20rem;
     border-radius: 5px;
     background: var(--white-background);
     position: fixed;
     top: 40%;
     left: 50%;
-    margin-left: -13%;
-    padding: 15px;
+    margin-left: -10rem;
+    padding: 1rem;
     display: none;
 }
+
 .dialog-heading {
     color: var(--black-text);
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.01rem;
     text-transform: capitalize;
 }
 .dialog-text {
     color: var(--gray-text);
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.01rem;
     text-transform: capitalize;
 }
 .dialog-footer {
@@ -418,44 +436,35 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.9rem;
-    letter-spacing: 0.8px;
-    margin-right: 5px;
-    padding: 10px 5px;
+    letter-spacing: 0.01rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
 }
 .dialog-action-btn:hover {
     cursor: pointer;
     background: var(--violet-background);
 }
 
-@media (max-width: 800px) {
-    .drawer {
-        width: 30%;
-    }
-    .dialog {
-        width: 40%;
-        margin-left: -20%;
+@media (max-width: 900px) {
+    html {
+        font-size: 80%;
     }
 }
 @media (max-width: 700px) {
-    .drawer {
-        width: 40%;
+    html {
+        font-size: 70%;
     }
 }
 
 @media (max-width: 450px) {
-    .drawer {
-        width: 50%;
+    html {
+        font-size: 50%;
     }
-    .snackbar {
-        width: 80%;
-        margin-left: -40%;
+    .snackbar-message {
+        justify-content: space-between;
+        width: 100%;
     }
     .snackbar-dismiss {
         display: none;
-    }
-    .dialog {
-        width: 80%;
-        left: 0%;
-        margin-left: 10px;
     }
 }
