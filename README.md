@@ -17,6 +17,12 @@
 - Basic header
 - Header with icons on the right side
 
+### Header
+- Basic Header with icons
+- Header with one icon
+- Collapsed Header
+- Prominent Header
+
 ### Dialog
 - Basic Dialog Box
 - Stacked Dialog Box
