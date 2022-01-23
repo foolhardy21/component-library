@@ -196,48 +196,32 @@ body {
     cursor: pointer;
 }
 
-.snackbar {
-    background: var(--c-darkgray);
-    color: var(--c-white);
+.snackbar-fontfamily {
     font-family: 'Roboto', sans-serif;
+}
+
+.snackbar-fontstyle {
+    color: var(--c-white);
     font-size: 0.9rem;
     letter-spacing: 0.01rem;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 30rem;
+}
+
+.snackbar-position {
     position: fixed;
     bottom: 1rem;
     left: 50%;
     margin-left: -15rem;
-    padding: 0.5rem;
 }
 
-.snackbar-message {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.snackbar {
+    background: var(--c-darkgray);
+    width: 30rem;
+    padding: 0.5rem;
 }
 
 .snackbar-action-btn {
     padding: 0.5rem;
-    background: transparent;
-    color: var(--c-violet);
     text-transform: uppercase;
-    border-style: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    letter-spacing: 0.01rem;
-}
-
-.snackbar-action-btn:hover {
-    cursor: pointer;
-}
-
-.snackbar-action-btn:active {
-    background: var(--lightviolet);
-    opacity: 0.5;
 }
 
 .snackbar-dismiss:hover {
