@@ -35,9 +35,13 @@ body {
 .border-radius-2 {
     border-radius: 10px;
 }
+.border-radius-3 {
+    border-radius: 50%;
+}
 .border-top-left-radius {
     border-top-left-radius: 5px;
 }
+
 
 .layout-vertical-center {
     display: flex;
@@ -162,7 +166,6 @@ body {
     justify-content: flex-end;
 }
 
-
 .buttonstyle-1 {
     background: transparent;
     border-style: none;
@@ -232,16 +235,14 @@ body {
 .badge-small {
     background: var(--c-white);
     color: var(--black-text);
-    border-radius: 50%;
-    padding: 0.5rem;
     font-size: 0.8rem;
+    padding: 0.5rem 0.6rem;
 }
 .badge-large {
     background: var(--c-white);
     color: var(--black-text);
-    border-radius: 50%;
-    padding: 0.5rem 0.8rem;
     font-size: 1.3rem;
+    padding: 0.5rem 0.8rem;
 }
 
 .button-badge-wrapper {
@@ -249,51 +250,36 @@ body {
     position: relative;
 }
 
-.button-basic {
+.buttonstyle-2 {
     border-style: none;
-    border-radius: 5px;
     background: var(--c-violet);
     color: var(--c-white);
     padding: 0.5rem;
-    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
+}
+
+.basic-button {
     font-size: 1.1rem;
 }
-.button-basic:hover {
+
+.basic-button:hover {
     cursor: pointer;
     opacity: 0.9;
 }
+
 .button-badge {
     position: absolute;
     bottom: 70%;
     left: 80%;
 }
+
 .button-badge:hover {
     cursor: pointer;
 }
 
-.button-toggle-badge {
-    border-style: none;
-    border-radius: 5px;
-    background: var(--c-violet);
-    color: var(--c-white);
-    padding: 0.5rem;
-    font-family: 'Roboto', sans-serif;
-    text-transform: capitalize;
-    font-size: 1.1rem;
-}
-.button-toggle-badge:hover {
-    cursor: pointer;
-    opacity: 0.9;
-}
-.toggle-badge {
-    position: absolute;
-    bottom: 70%;
-    left: 80%;
-}
-.toggle-badge:hover {
-    cursor: pointer;
-}
+/* these classes are for js script only. will update script later. */
+.button-toggle-badge {}
+.toggle-badge {}
 
 .drawer {
     width: 15rem;
