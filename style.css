@@ -283,51 +283,61 @@ body {
 
 .drawer {
     width: 15rem;
-    border-radius: 5px;
     padding: 1rem;
     background: var(--c-white);
 }
-.drawer-heading {
-    margin: 0;
+
+.drawer-fontfamily {
+    font-family: 'Roboto', sans-serif;
+}
+
+.drawer-heading-fontstyle {
     color: var(--c-black);
     text-transform: capitalize;
-    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.01rem;
 }
-.drawer-subheading {
+
+.drawer-heading {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.01rem;
+}
+
+.drawer-subheading-fontstyle {
     font-size: 0.9rem;
+    letter-spacing: 0.01rem;
     color: var(--c-gray);
 }
+
+.drawer-subheading {
+    margin: 0;
+}
+
 .drawer-menu-list {
     padding: 0;
 }
-.drawer-menu-item {
+
+.drawer-menu-item-fontstyle {
     text-transform: capitalize;
-    font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     font-weight: 500;
     letter-spacing: 0.01rem;
-    list-style: none;
+}
+
+.layout-horizontal-start {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.drawer-menu-item {
+    list-style: none;
     padding: 0.5rem;
     margin: 0.5rem 0;
-    border-radius: 5px;
 }
 .drawer-menu-item > span {
     margin: 0 0.5rem;
     opacity: 0.7;
 }
-.drawer-menu-icon-right {
-    justify-content: space-between;
-}
-.drawer-icon-right {
-    order: 1;
-}
+
 .drawer-menu-item:hover {
     background: var(--c-hovergray);
     cursor: pointer;
