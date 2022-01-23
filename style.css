@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background: var(--c-gray);
+    background: lightgray;
 }
 
 .card-fontfamily {
@@ -342,6 +342,7 @@ body {
     background: var(--c-hovergray);
     cursor: pointer;
 }
+
 .drawer-menu-item-active {
     color: var(--c-violet);
     background: var(--c-lightviolet);
@@ -353,45 +354,60 @@ body {
     background: var(--c-violet);
     display: grid;
     align-items: center;
-    grid-template-areas: 
-    "nav heading heading ... ... icons";
 }
-.header-prominent {
+
+.header-1 {
+    grid-template-areas: "nav heading heading ... ... icons";
+}
+
+.header-2 {
     grid-template-areas: 
     "nav ... ... ... ... icons"
     "... heading heading ... ... ...";
 }
-.header-collapsed {
+
+.header-3 {
     grid-template-areas: "nav icons";
     width: 5rem;
     border-bottom-right-radius: 20px;
 }
+
 .header-navigation {
     color: var(--c-white);
     grid-area: nav;
 }
-.header-navigation:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
-.header-heading {
+
+.header-fontfamily {
     font-family: 'Roboto', sans-serif;
-    color: var(--c-white);
-    grid-area: heading;
+}
+
+.header-heading-fontstyle {
     text-transform: uppercase;
     font-weight:bold;
     letter-spacing: 0.01rem;
 }
+
+.header-heading {
+    color: var(--c-white);
+    grid-area: heading;
+}
+
 .header-icons-wrapper {
     grid-area: icons;
     justify-self: end;
 }
+
 .header-icon {
     margin: 0 0.5rem;
+    color: var(--c-white);
 }
-.header-icon:hover {
-    cursor: pointer;
+
+.iconstyle-2 {
+    opacity: 1;
+}
+.iconstyle-2:hover {
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .dialog {
