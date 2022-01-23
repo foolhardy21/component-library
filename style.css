@@ -31,13 +31,11 @@ body {
     position: absolute;
     top: 1%;
     right: 1%;
-    opacity: 0.5;
-    width: 1.4rem;
 }
 
 .card-dismiss:hover {
     cursor: pointer;
-    opacity: 1;
+    color: var(--white-text);
 }
 
 .card-main-header {
@@ -164,7 +162,6 @@ body {
 }
 .card-icon {
     opacity: 0.6;
-    width: 1.3rem;
     margin-right: 1rem;
 }
 .card-icon:hover {
@@ -324,8 +321,7 @@ body {
     margin: 0.5rem 0;
     border-radius: 5px;
 }
-.drawer-menu-item > img {
-    width: 1.3rem;
+.drawer-menu-item > span {
     margin: 0 0.5rem;
     opacity: 0.7;
 }
@@ -333,7 +329,6 @@ body {
     justify-content: space-between;
 }
 .drawer-icon-right {
-    width: 1.3rem;
     order: 1;
 }
 .drawer-menu-item:hover {
@@ -365,7 +360,7 @@ body {
     border-bottom-right-radius: 20px;
 }
 .header-navigation {
-    width: 1.3rem;
+    color: var(--white-text);
     grid-area: nav;
 }
 .header-navigation:hover {
@@ -385,12 +380,11 @@ body {
     justify-self: end;
 }
 .header-icon {
-    width: 1.3rem;
     margin: 0 0.5rem;
 }
 .header-icon:hover {
     cursor: pointer;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .dialog {
@@ -475,6 +469,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .tabitem-top-icon {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
@@ -488,14 +483,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.tabitem-lead-icon > img {
-    opacity: 0.6;
-    width: 1.3rem;
-}
-.tabitem-top-icon > img {
-    width: 1.3rem;
-    opacity: 0.6;
-}
+
 .tab-item:hover {
     background: var(--violet-background);
     cursor: pointer;
@@ -540,14 +528,13 @@ body {
     letter-spacing: 0.01rem;
     margin: 0.5rem;
     display: flex;
-    align-self: center;
+    align-items: center;
 }
-.chip-with-dismiss > img {
-    width: 1.3rem;
+.chip-with-dismiss > span {
     margin-left: 0.2rem;
     opacity: 0.5;
 }
-.chip-with-dismiss > img:hover {
+.chip-with-dismiss > span:hover {
     opacity: 1;
 }
 
@@ -562,10 +549,16 @@ body {
     html {
         font-size: 80%;
     }
+    .material-icons {
+        font-size: 100%;
+    }
 }
 @media (max-width: 700px) {
     html {
         font-size: 70%;
+    }
+    .material-icons {
+        font-size: 100%;
     }
 }
 
@@ -579,5 +572,8 @@ body {
     }
     .snackbar-dismiss {
         display: none;
+    }
+    .material-icons {
+        font-size: 100%;
     }
 }
