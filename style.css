@@ -7,6 +7,9 @@
     --c-darkgray: #424242;
     --c-lightviolet: #f3e5f5;
     --c-hovergray: rgb(240, 240, 240);
+    --c-red: #f44336;
+    --c-green: #4caf50;
+    --c-yellow: #ffeb3b;
 }
 
 html {
@@ -238,12 +241,27 @@ body {
     opacity: 0.5;
 }
 
+.badge-green {
+    background: var(--c-green);
+}
+.badge-red {
+    background: var(--c-red);
+}
+.badge-yellow {
+    background: var(--c-yellow);
+}
+.badge-notif {
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
 .badge-small {
     background: var(--c-white);
     color: var(--black-text);
     font-size: 0.8rem;
     padding: 0.5rem 0.6rem;
 }
+
 .badge-large {
     background: var(--c-white);
     color: var(--black-text);
@@ -277,6 +295,15 @@ body {
     position: absolute;
     bottom: 70%;
     left: 80%;
+}
+
+.avatar-badge {
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: var(--c-black);
+    position: absolute;
+    top: 65%;
+    left: 65%;
 }
 
 .button-badge:hover {
@@ -564,6 +591,37 @@ body {
 }
 .chip-with-dismiss:hover {
     cursor: pointer;
+}
+
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar-small {
+width: 3rem;
+height: 3rem;
+}
+
+.avatar-medium {
+    width: 5rem;
+    height: 5rem;
+}
+
+.avatar-large {
+    width: 7rem;
+    height: 7rem;
+}
+
+.avatar-overlap {
+    margin-right: -8%;
+    border-style: solid;
+    border-color: var(--c-lightviolet);
+}
+
+.avatar-group {
+    background: var(--c-lightviolet);
+    display: inline-block;
 }
 
 @media (max-width: 900px) {
