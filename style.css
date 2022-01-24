@@ -624,6 +624,72 @@ height: 3rem;
     display: inline-block;
 }
 
+.alert-fontfamily {
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-fontstyle {
+    font-size: 1rem;
+    letter-spacing: 0.01rem;
+    color: var(--c-white);
+}
+
+.alert-wrapper {
+    width: 40rem;
+    padding: 0.5rem;
+    background: var(--c-darkgray);
+}
+
+.alert-error-outlined {
+    background: transparent;
+    border-style: solid;
+    color: var(--c-red);
+    border-color: var(--c-red);
+}
+
+.alert-error-filled {
+    background: var(--c-red);
+    color: var(--c-black);
+}
+
+.alert-warning-filled {
+    background: var(--c-yellow);
+    color: var(--c-black);
+}
+
+.alert-success-filled {
+    background: var(--c-green);
+    color: var(--c-black);
+}
+
+.alert-warning-outlined {
+    background: transparent;
+    border-style: solid;
+    color: var(--c-yellow);
+    border-color: var(--c-yellow);
+}
+
+.alert-success-outlined {
+    background: transparent;
+    border-style: solid;
+    color: var(--c-green);
+    border-color: var(--c-green);
+}
+
+.alert-wrapper > div > span {
+    margin-right: 0.5rem;
+}
+
+.alert-error {
+    color: var(--c-red);
+}
+.alert-warning {
+    color: var(--c-yellow);
+}
+.alert-success {
+    color: var(--c-green);
+}
+
 @media (max-width: 900px) {
     html {
         font-size: 80%;
