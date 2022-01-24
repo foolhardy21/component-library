@@ -48,6 +48,12 @@ body {
     align-items: center;
 }
 
+.layout-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .layout-horizontal-stretch {
     display: flex;
     align-items: center;
@@ -410,115 +416,107 @@ body {
     cursor: pointer;
 }
 
-.dialog {
-    width: 20rem;
-    border-radius: 5px;
-    background: var(--c-white);
+.dialog-position {
     position: fixed;
     top: 40%;
     left: 50%;
     margin-left: -10rem;
-    padding: 1rem;
+}
+
+.dialog {
     display: none;
+    width: 20rem;
+    padding: 1rem;
+    background: var(--c-white);
+}
+
+.dialog-fontfamily {
+    font-family: 'Roboto', sans-serif;
+}
+
+.dialog-heading-fontstyle {
+    color: var(--c-black);
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
 }
 
 .dialog-heading {
-    color: var(--c-black);
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.01rem;
-    text-transform: capitalize;
 }
-.dialog-text {
-    color: var(--c-gray);
-    font-family: 'Roboto', sans-serif;
+
+.dialog-text-fontstyle {
     font-size: 0.9rem;
     letter-spacing: 0.01rem;
     text-transform: capitalize;
 }
-.dialog-footer {
+
+.dialog-text {
+    color: var(--c-gray);
+}
+
+.layout-horizontal-end {
     display: flex;
     justify-content: flex-end;
+
 }
-.dialog-footer-stacked {
+
+.layout-vertical-end {
+    display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
-.dialog-action-btn {
-    background: transparent;
-    border-style: none;
-    border-radius: 5px;
-    color: var(--c-violet);
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 0.9rem;
-    letter-spacing: 0.01rem;
-    margin-right: 0.5rem;
-    padding: 0.5rem;
-}
-.dialog-action-btn:hover {
-    cursor: pointer;
-    background: var(--c-lightviolet);
+
+.layout-columns-only {
+    display: grid;
+    grid-auto-flow: column;
 }
 
 .tab-wrapper {
     padding: 0;
-    display: grid;
-    grid-auto-flow: column;
 }
-.tab-item {
+
+.tab-fontfamily {
     font-family: 'Roboto', sans-serif;
+}
+
+.tab-item-fontstyle {
     font-size: 1rem;
     letter-spacing: 0.01rem;
     text-transform: uppercase;
+    color: var(--c-gray);
+}
+
+.tab-item {
     padding: 1rem 0;
     list-style: none;
-    color: var(--c-gray);
     justify-self: stretch;
     text-align: center;
     border-radius: 0.1rem;
 }
+
 .tabitem-lead-icon {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    letter-spacing: 0.01rem;
-    text-transform: uppercase;
     padding: 1rem 0;
     list-style: none;
-    color: var(--c-gray);
     border-radius: 0.1rem;
+}
+
+.layout-horizontal-center {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 
 .tabitem-top-icon {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    letter-spacing: 0.01rem;
-    text-transform: uppercase;
     padding: 1rem 0;
     list-style: none;
-    color: var(--c-gray);
     border-radius: 0.1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.tab-item:hover {
+.tab-wrapper > li:hover {
     background: var(--c-lightviolet);
     cursor: pointer;
 }
-.tabitem-lead-icon:hover {
-    background: var(--c-lightviolet);
-    cursor: pointer;
-}
-.tabitem-top-icon:hover {
-    background: var(--c-lightviolet);
-    cursor: pointer;
-}
+
 .tab-item-selected {
     color: var(--c-violet);
     border-bottom-style: solid;
