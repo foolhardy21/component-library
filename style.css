@@ -279,7 +279,13 @@ body {
     background: var(--c-violet);
     color: var(--c-white);
     padding: 0.5rem;
-    text-transform: capitalize;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.buttonstyle-2:hover {
+    cursor: pointer;
+    background: var(--c-lightviolet);
 }
 
 .basic-button {
@@ -635,7 +641,7 @@ height: 3rem;
 }
 
 .alert-wrapper {
-    width: 40rem;
+    width: 30rem;
     padding: 0.5rem;
     background: var(--c-darkgray);
 }
@@ -690,12 +696,35 @@ height: 3rem;
     color: var(--c-green);
 }
 
+.disabled-btn {
+    opacity: 0.3;
+}
+
+.buttonstyle-3 {
+    color: var(--c-violet);
+    background: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--c-violet);
+    padding: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.buttonstyle-3:hover {
+    cursor: pointer;
+    background: var(--c-lightviolet);
+}
+
+.float-btn-position {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+}
+
 @media (max-width: 900px) {
     html {
         font-size: 80%;
-    }
-    .material-icons {
-        font-size: 100%;
     }
 }
 @media (max-width: 700px) {
