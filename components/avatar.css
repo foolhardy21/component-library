@@ -1,0 +1,33 @@
+.avatar {
+    object-fit: cover;
+}
+
+.avatar-size-1 {
+    width: 3rem;
+    height: 3rem;
+}
+
+.avatar-size-2 {
+    width: 4rem;
+    height: 4rem;
+}
+
+.avatar-size-3 {
+    width: 5rem;
+    height: 5rem;
+}
+
+.avatar-size-4 {
+    width: 7rem;
+    height: 7rem;
+}
+
+.avatar-border-violet {
+    border-color: var(--c-violet);
+}
+
+.avatar-overlap {
+    margin-left: -8%;
+}
+
+
