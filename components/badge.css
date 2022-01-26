@@ -1,0 +1,42 @@
+
+.badge-padding-1 {
+    padding: 0.3rem;
+}
+
+.badge-padding-2 {
+    padding: 0.5rem;
+}
+
+.badge-size-1 {
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+.badge-size-2 {
+    width: 1rem;
+    height: 1rem;
+}
+
+.badge-text-1 {
+    font-size: 0.8rem;
+}
+
+.badge-text-2 {
+    font-size: 1rem;
+}
+
+.badge-green {
+    background: var(--c-green);
+}
+
+.badge-red {
+    background: var(--c-red);
+}
+
+.badge-yellow {
+    background: var(--c-yellow);
+}
+
+.badge-violet {
+    background: var(--c-violet);
+}
