@@ -4,15 +4,15 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.font-size-1 {
+.font-size-sm {
     font-size: 1rem;
 }
 
-.font-size-2 {
+.font-size-md {
     font-size: 1.2rem;
 }
 
-.font-size-3 {
+.font-size-lg {
     font-size: 1.5rem;
 }
 
@@ -28,10 +28,10 @@
     font-weight: 700;
 }
 
-.letter-space-1 {
+.letter-space-sm {
     letter-spacing: 0.01rem;
 }
 
-.letter-space-2 {
+.letter-space-md {
     letter-spacing: 0.02rem;
 }

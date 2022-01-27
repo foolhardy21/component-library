@@ -1,10 +1,10 @@
 
 /* border */
-.border-radius-1 {
+.border-radius-sm {
     border-radius: 5px;
 }
 
-.border-radius-3 {
+.border-radius-circle {
     border-radius: 50%;
 }
 
@@ -85,19 +85,19 @@
 /* width and heights */
 
 /* paddings and margins */
-.padding-1 {
+.padding-sm {
     padding: 0.2rem;
 }
 
-.padding-2 {
+.padding-md {
     padding: 0.5rem;
 }
 
-.padding-3 {
+.padding-lg {
     padding: 0.6rem;
 }
 
-.padding-4 {
+.padding-xlg {
     padding: 0.7rem;
 }
 
