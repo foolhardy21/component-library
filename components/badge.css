@@ -1,19 +1,19 @@
 
-.badge-size-1 {
+.badge-size-sm {
     width: 0.7rem;
     height: 0.7rem;
 }
 
-.badge-size-2 {
+.badge-size-md {
     width: 1rem;
     height: 1rem;
 }
 
-.badge-text-1 {
+.badge-text-sm {
     font-size: 0.7rem;
 }
 
-.badge-text-2 {
+.badge-text-md {
     font-size: 1rem;
 }
 

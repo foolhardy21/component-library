@@ -1,5 +1,5 @@
 /* border */
-.border-radius-3 {
+.border-radius-circle {
     border-radius: 50%;
 }
 
@@ -64,10 +64,10 @@
 
 /* paddings and margins */
 
-.padding-1 {
+.padding-sm {
     padding: 0.2rem;
 }
 
-.padding-2 {
+.padding-md {
     padding: 0.5rem;
 }
