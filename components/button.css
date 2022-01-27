@@ -1,0 +1,34 @@
+
+.btn-text {
+    background: transparent;
+    border-style: none;
+    color: var(--c-blue);
+}
+
+.btn-text:hover {
+    cursor: pointer;
+    background: var(--c-lightblue);
+}
+
+.btn-filled {
+    border-style: none;
+    background: var(--c-blue);
+    color: var(--c-white);
+}
+
+.btn-filled:hover {
+    cursor: pointer;
+    background: var(--c-darkblue);
+}
+
+.btn-outlined {
+    color: var(--c-blue);
+    background: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--c-blue);
+}
+
+.btn-outlined:hover {
+    cursor: pointer;
+}
