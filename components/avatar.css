@@ -22,8 +22,8 @@
     height: 7rem;
 }
 
-.avatar-border-violet {
-    border-color: var(--c-violet);
+.avatar-border-blue {
+    border-color: var(--c-blue);
 }
 
 .avatar-overlap {
