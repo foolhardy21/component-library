@@ -13,37 +13,37 @@
     
     <h1>Buttons</h1>
     <h3>text buttons</h3>
-    <button class='btn-text font-size-1 padding-1 text-uppercase text-bold letter-space-1 border-radius-1'>
+    <button class='btn-text font-size-1 padding-2 text-uppercase text-bold letter-space-1 border-radius-1'>
         text
     </button>
-    <button class='btn-text font-size-2 padding-2 text-uppercase text-bold letter-space-1 border-radius-1'>
+    <button class='btn-text font-size-2 padding-3 text-uppercase text-bold letter-space-1 border-radius-1'>
         text
     </button>
-    <button class='btn-text font-size-3 padding-3 text-uppercase text-bold letter-space-2 border-radius-1'>
+    <button class='btn-text font-size-3 padding-4 text-uppercase text-bold letter-space-2 border-radius-1'>
         text
     </button>
     
     
     <h3>contained buttons</h3>
-    <button class='btn-filled font-size-1 padding-1 text-uppercase text-bold padding-1 letter-space-1 border-radius-1'>filled</button>
-    <button class='btn-filled font-size-2 padding-2 text-uppercase text-bold padding-1 letter-space-1 border-radius-1'>filled</button>
-    <button class='btn-filled font-size-3 padding-3 text-uppercase text-bold padding-1 letter-space-2 border-radius-1'>filled</button>
+    <button class='btn-filled font-size-1 padding-2 text-uppercase text-bold letter-space-1 border-radius-1'>filled</button>
+    <button class='btn-filled font-size-2 padding-3 text-uppercase text-bold letter-space-1 border-radius-1'>filled</button>
+    <button class='btn-filled font-size-3 padding-4 text-uppercase text-bold letter-space-2 border-radius-1'>filled</button>
     
     
     <h3>outlined buttons</h3>
-    <button class='btn-outlined text-uppercase text-bold font-size-1 padding-1 letter-space-1 border-radius-1'>outlined</button>
-    <button class='btn-outlined text-uppercase text-bold font-size-2 padding-2 letter-space-1 border-radius-1'>outlined</button>
-    <button class='btn-outlined text-uppercase text-bold font-size-3 padding-3 letter-space-2 border-radius-1'>outlined</button>
+    <button class='btn-outlined text-uppercase text-bold font-size-1 padding-2 letter-space-1 border-radius-1'>outlined</button>
+    <button class='btn-outlined text-uppercase text-bold font-size-2 padding-3 letter-space-1 border-radius-1'>outlined</button>
+    <button class='btn-outlined text-uppercase text-bold font-size-3 padding-4 letter-space-2 border-radius-1'>outlined</button>
     
     
     <h3>icons with text buttons</h3>
-    <button class='btn-outlined flex-center text-uppercase text-bold padding-1 font-size-1 letter-space-1 border-radius-1'>
+    <button class='btn-outlined flex-center text-uppercase text-bold padding-2 font-size-1 letter-space-1 border-radius-1'>
         <span class='material-icons'>
             delete
         </span>
         delete
     </button><br/>
-    <button class='btn-filled flex-center text-uppercase text-bold padding-1 font-size-1 letter-space-1 border-radius-1'>
+    <button class='btn-filled flex-center text-uppercase text-bold padding-2 font-size-1 letter-space-1 border-radius-1'>
         <span class='material-icons'>
             delete
         </span>
@@ -51,13 +51,97 @@
     </button>
 
     <h3>icon buttons</h3>
-    <button class='btn-text padding-1 flex-center border-radius-3'>
+    <button class='btn-text padding-3 flex-center border-radius-3'>
         <span class='material-icons'>alarm</span>
     </button>
-    <button class='btn-text padding-1 flex-center pos-absolute bottom-right-5 border-radius-3'>
+    <button class='btn-text padding-3 flex-center pos-fixed bottom-right-5 border-radius-3'>
         <span class='material-icons'>download</span>
     </button>
     <h5>float action button in bottom right corner</h5>
+
+    <h1>Alerts</h1>
+    <div class='flex-horizontal-stretch padding-2 font-size-1 letter-space-1 alert-size-1 alert-basic border-radius-1'>
+        <div class='flex-vertical-center'>
+            <span class="material-icons icon-color-red">
+                error
+            </span>
+            This is an error alert — check it out!
+        </div>
+        <span class='material-icons icon-close'>close</span>
+    </div><br/>
+    <div class='flex-horizontal-stretch padding-2 font-size-1 letter-space-1 alert-size-1 alert-basic border-radius-1'>
+        <div class='flex-vertical-center'>
+            <span class="material-icons icon-color-yellow">
+                warning
+            </span>
+            This is a warning alert — check it out!
+        </div>
+        <span class='material-icons icon-close'>close</span>
+    </div><br/>
+    <div class='flex-horizontal-stretch padding-2 font-size-1 letter-space-1 alert-size-1 alert-basic border-radius-1'>
+        <div class='flex-vertical-center'>
+            <span class="material-icons icon-color-green">
+                check_circle
+            </span>
+            This is a success alert — check it out!
+        </div>
+        <span class='material-icons icon-close'>close</span>
+    </div><br/>
+    <div class='flex-horizontal-stretch padding-2 font-size-1 letter-space-1 alert-size-1 container-outlined alert-error-outlined border-radius-1'>
+        <div class='flex-vertical-center'>
+            <span class="material-icons">
+                error
+            </span>
+            This is an error alert — check it out!
+        </div>
+        <span class='material-icons icon-close'>close</span>
+    </div><br/>
+    <div class='flex-horizontal-stretch padding-2 font-size-1 letter-space-1 alert-size-1 container-outlined alert-warning-outlined border-radius-1'>
+        <div class='flex-vertical-center'>
+            <span class="material-icons">
+                warning
+            </span>
+            This is a warning alert — check it out!
+        </div>
+        <span class='material-icons icon-close'>close</span>
+    </div><br/>
+    <div class='flex-horizontal-stretch padding-2 font-size-1 letter-space-1 alert-size-1 container-outlined alert-success-outlined border-radius-1'>
+        <div class='flex-vertical-center'>
+            <span class="material-icons">
+                check_circle
+            </span>
+            This is a success alert — check it out!
+        </div>
+        <span class='material-icons icon-close'>close</span>
+    </div><br/>
+    <div class='flex-horizontal-stretch padding-2 font-size-1 letter-space-1 alert-size-1 alert-error-filled border-radius-1'>
+        <div class='flex-vertical-center'>
+            <span class="material-icons">
+                error
+            </span>
+            This is an error alert — check it out!
+        </div>
+        <span class='material-icons icon-close'>close</span>
+    </div><br/>
+    <div class='flex-horizontal-stretch padding-2 font-size-1 letter-space-1 alert-size-1 alert-warning-filled border-radius-1'>
+        <div class='flex-vertical-center'>
+            <span class="material-icons">
+                warning
+            </span>
+            This is a warning alert — check it out!
+        </div>
+        <span class='material-icons icon-close'>close</span>
+    </div><br/>
+    <div class='flex-horizontal-stretch padding-2 font-size-1 letter-space-1 alert-size-1 alert-success-filled border-radius-1'>
+        <div class='flex-vertical-center'>
+            <span class="material-icons">
+                check_circle
+            </span>
+            This is a success alert — check it out!
+        </div>
+        <span class='material-icons icon-close'>close</span>
+    </div><br/>
+
 
 </body>
 </html>

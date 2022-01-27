@@ -24,6 +24,16 @@
     justify-content: center;
 }
 
+.flex-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-horizontal-stretch {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* position */
 .pos-relative {
     position: relative;
@@ -31,6 +41,10 @@
 
 .pos-absolute {
     position: absolute;
+}
+
+.pos-fixed {
+    position: fixed;
 }
 
 .top-left-60 {
@@ -70,16 +84,26 @@
 
 /* width and heights */
 
-
 /* paddings and margins */
 .padding-1 {
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
 
 .padding-2 {
-    padding: 0.7rem;
+    padding: 0.5rem;
 }
 
 .padding-3 {
-    padding: 0.8rem;
+    padding: 0.6rem;
+}
+
+.padding-4 {
+    padding: 0.7rem;
+}
+
+/* skin */
+
+.container-outlined {
+    background: transparent;
+    border-style: solid;
 }
