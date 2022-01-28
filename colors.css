@@ -1,0 +1,22 @@
+:root {
+    /* for default backgrounds */
+    --c-white: #ffffff;
+    
+    /* for text */
+    --c-black: #000000;
+    --c-gray: #757575;
+    --c-darkgray: #424242;
+    --c-hovergray: rgb(240, 240, 240);
+    
+    /* primary or cta */
+    --c-blue: #0C6FF9;
+    --c-darkblue: #0b63df;
+    --c-lightblue: #cfe2fc;
+    
+    /* accent */
+    --c-yellow: #FFCE00;
+    
+    /* notifications */
+    --c-red: #f44336;
+    --c-green: #4caf50;
+}

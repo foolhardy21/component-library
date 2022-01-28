@@ -1,0 +1,119 @@
+.card-wrapper {
+    position: relative;
+    width: 22rem;
+    padding-bottom: 10px;
+    background: var(--c-white);
+}
+
+.card-dismiss {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    color: var(--c-black);
+}
+
+.card-dismiss:hover {
+    cursor: pointer;
+    color: var(--c-white);
+}
+
+.card-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-4 {
+    display: flex;
+}
+
+.card-wrapper > main:hover {
+    cursor: pointer;
+    background: var(--c-hovergray);
+}
+
+.card-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-3-image {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+.card-4-image {
+    border-top-right-radius: 0%;
+    width: 30%;
+}
+
+.card-header {
+    padding: 1.5rem;
+}
+
+.card-2-header {
+    position: absolute;
+    top: 0;
+}
+
+.card-3-header {
+    order: -1;
+}
+
+.card-heading-fontstyle {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.01rem;
+    color: var(--c-black);
+}
+
+.card-heading {
+    margin: 0;
+}
+
+.card-subheading-fontstyle {
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    color: var(--c-gray);
+}
+
+.card-subheading {
+    margin: 0;
+    margin-top: 0.25rem;
+}
+
+.card-text-fontstyle {
+    font-size: 0.9rem;
+    color: var(--c-gray);
+}
+
+.card-text {
+    margin: 0;
+    padding: 1rem;
+}
+
+.card-footer {
+    margin: 0 1rem;
+}
+
+.card-4-footer {
+    margin-top: 0.25rem;
+}
+
+.card-5-footer {
+    justify-content: flex-start;
+}
+
+.card-6-footer {
+    justify-content: flex-end;
+}
+.card-button {
+    font-size: 0.9rem;
+    letter-spacing: 0.01rem;
+    margin-right: 0.5rem;
+}
+.card-icon {
+    margin-right: 1rem;
+}
