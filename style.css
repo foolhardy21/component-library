@@ -4,5 +4,6 @@
 @import './utils/display-utils.css';
 @import './utils/padding-margin-utils.css';
 @import './utils/pos-utils.css';
+@import './components/image.css';
 @import './components/card.css';
 @import './media-queries.css';
