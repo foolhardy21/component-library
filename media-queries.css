@@ -3,6 +3,11 @@
     html {
         font-size: 80%;
     }
+
+    .letter-space-md {
+        letter-spacing: 0.05rem;
+    }
+    
     .card-icon {
         font-size: 140%;
     }
