@@ -3,6 +3,9 @@
     html {
         font-size: 80%;
     }
+    .card-icon {
+        font-size: 140%;
+    }
 }
 
 @media (max-width: 700px) {

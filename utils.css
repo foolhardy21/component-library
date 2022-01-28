@@ -22,6 +22,15 @@
     display: inline-block;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-order-start {
+    order: -1;
+}
+
 .flex-center {
     display: flex;
     align-items: center;
