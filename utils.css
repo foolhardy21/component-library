@@ -60,6 +60,11 @@
     justify-content: flex-start;
 }
 
+.flex-horizontal-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* position */
 .pos-relative {
     position: relative;
