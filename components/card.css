@@ -1,18 +1,14 @@
 .card-wrapper {
-    position: relative;
     width: 22rem;
-    padding-bottom: 10px;
     background: var(--c-white);
+    box-shadow: 0 0 5px -2px;
 }
 
-.card-dismiss {
-    position: absolute;
-    top: 1%;
-    right: 1%;
-    color: var(--c-black);
+.icon-close {
+    color: var(--c-darkgray);
 }
 
-.card-dismiss:hover {
+.icon-close:hover {
     cursor: pointer;
     color: var(--c-white);
 }
@@ -26,10 +22,10 @@
     display: flex;
 }
 
-.card-wrapper > main:hover {
+/* .card-wrapper > main:hover {
     cursor: pointer;
     background: var(--c-hovergray);
-}
+} */
 
 .card-image {
     width: 100%;
@@ -46,9 +42,6 @@
     width: 30%;
 }
 
-.card-header {
-    padding: 1.5rem;
-}
 
 .card-2-header {
     position: absolute;
@@ -59,43 +52,25 @@
     order: -1;
 }
 
-.card-heading-fontstyle {
-    text-transform: capitalize;
-    font-weight: bold;
-    font-size: 1.2rem;
-    letter-spacing: 0.01rem;
+
+.card-heading-black {
     color: var(--c-black);
 }
 
-.card-heading {
-    margin: 0;
+
+.card-subheading-black {
+    color: var(--c-black);
 }
 
-.card-subheading-fontstyle {
-    text-transform: capitalize;
-    font-size: 0.9rem;
-    font-weight: bold;
-    letter-spacing: 0.01rem;
-    color: var(--c-gray);
-}
-
-.card-subheading {
-    margin: 0;
-    margin-top: 0.25rem;
-}
 
 .card-text-fontstyle {
     font-size: 0.9rem;
-    color: var(--c-gray);
+    color: var(--c-darkgray);
 }
 
-.card-text {
-    margin: 0;
-    padding: 1rem;
-}
 
 .card-footer {
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
 }
 
 .card-4-footer {
@@ -109,11 +84,24 @@
 .card-6-footer {
     justify-content: flex-end;
 }
-.card-button {
-    font-size: 0.9rem;
-    letter-spacing: 0.01rem;
-    margin-right: 0.5rem;
-}
+
 .card-icon {
-    margin-right: 1rem;
+    color: var(--c-darkgray);
+}
+.card-icon:hover {
+    cursor: pointer;
+    color: var(--c-black);
+}
+
+
+/* re-using this from button component because button is not merged yet */
+.btn-text {
+    background: transparent;
+    border-style: none;
+    color: var(--c-blue);
+}
+
+.btn-text:hover {
+    cursor: pointer;
+    background: var(--c-lightblue);
 }

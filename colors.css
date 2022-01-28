@@ -5,8 +5,9 @@
     /* for text */
     --c-black: #000000;
     --c-gray: #757575;
+    --c-lightgray: #ecebeb;
     --c-darkgray: #424242;
-    --c-hovergray: rgb(240, 240, 240);
+    --c-hovergray: rgb(230, 230, 230);
     
     /* primary or cta */
     --c-blue: #0C6FF9;
