@@ -19,7 +19,7 @@
 }
 
 .card-4 {
-    display: flex;
+    /* display: flex; */
 }
 
 /* .card-wrapper > main:hover {
@@ -37,8 +37,8 @@
     border-top-right-radius: 0%;
 }
 
-.card-4-image {
-    border-top-right-radius: 0%;
+.card-horizontal-image {
+    /* border-top-right-radius: 0%; */
     width: 30%;
 }
 
@@ -74,11 +74,11 @@
 }
 
 .card-4-footer {
-    margin-top: 0.25rem;
+    /* margin-top: 0.25rem; */
 }
 
 .card-5-footer {
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
 }
 
 .card-6-footer {

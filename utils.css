@@ -8,6 +8,10 @@
     border-top-right-radius: 5px;
 }
 
+.border-top-left-radius-sm {
+    border-top-left-radius: 5px;
+}
+
 .border-radius-circle {
     border-radius: 50%;
 }
@@ -20,6 +24,10 @@
 /* display */
 .inline-block {
     display: inline-block;
+}
+
+.flex-row {
+    display: flex;
 }
 
 .flex-column {
@@ -45,6 +53,11 @@
 .flex-horizontal-stretch {
     display: flex;
     justify-content: space-between;
+}
+
+.flex-horizontal-start {
+    display: flex;
+    justify-content: flex-start;
 }
 
 /* position */
