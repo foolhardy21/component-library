@@ -1,0 +1,43 @@
+.inline-block {
+    display: inline-block;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-order-start {
+    order: -1;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-horizontal-stretch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-horizontal-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-horizontal-end {
+    display: flex;
+    justify-content: flex-end;
+}

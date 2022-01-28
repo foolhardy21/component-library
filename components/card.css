@@ -1,0 +1,62 @@
+
+.card-shadow-sm {
+    box-shadow: 0 0 5px -2px;
+}
+
+.card-wrapper {
+    width: 22rem;
+    background: var(--c-white);
+}
+
+.icon-close {
+    color: var(--c-darkgray);
+}
+
+.icon-close:hover {
+    cursor: pointer;
+    color: var(--c-white);
+}
+
+.card-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-horizontal-image {
+    width: 30%;
+}
+
+.card-heading-black {
+    color: var(--c-black);
+}
+
+.card-subheading-black {
+    color: var(--c-black);
+}
+
+.card-text-fontstyle {
+    font-size: 0.9rem;
+    color: var(--c-darkgray);
+}
+
+.card-icon {
+    color: var(--c-darkgray);
+}
+
+.card-icon:hover {
+    cursor: pointer;
+    color: var(--c-black);
+}
+
+
+/* re-using this from button component because button is not merged yet */
+.btn-text {
+    background: transparent;
+    border-style: none;
+    color: var(--c-blue);
+}
+
+.btn-text:hover {
+    cursor: pointer;
+    background: var(--c-lightblue);
+}

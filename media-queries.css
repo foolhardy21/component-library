@@ -1,0 +1,20 @@
+
+@media (max-width: 900px) {
+    html {
+        font-size: 80%;
+    }
+
+    .letter-space-md {
+        letter-spacing: 0.05rem;
+    }
+    
+    .card-icon {
+        font-size: 140%;
+    }
+}
+
+@media (max-width: 700px) {
+    html {
+        font-size: 70%;
+    }
+}
