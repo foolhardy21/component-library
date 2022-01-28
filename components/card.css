@@ -22,11 +22,6 @@
     object-fit: cover;
 }
 
-.card-3-image {
-    border-top-left-radius: 0%;
-    border-top-right-radius: 0%;
-}
-
 .card-horizontal-image {
     width: 30%;
 }
@@ -47,6 +42,7 @@
 .card-icon {
     color: var(--c-darkgray);
 }
+
 .card-icon:hover {
     cursor: pointer;
     color: var(--c-black);
