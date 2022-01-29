@@ -5,12 +5,14 @@
     /* for text */
     --c-black: #000000;
     --c-gray: #757575;
+    --c-lightgray: #ecebeb;
     --c-darkgray: #424242;
-    --c-hovergray: rgb(240, 240, 240);
+    --c-hovergray: rgb(230, 230, 230);
     
     /* primary or cta */
     --c-blue: #0C6FF9;
-    --c-hoverblue: #0b63df;
+    --c-darkblue: #0b63df;
+    --c-lightblue: #cfe2fc;
     
     /* accent */
     --c-yellow: #FFCE00;
