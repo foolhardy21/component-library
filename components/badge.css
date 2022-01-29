@@ -1,0 +1,35 @@
+
+.badge-size-sm {
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+.badge-size-md {
+    width: 1rem;
+    height: 1rem;
+}
+
+.badge-text-sm {
+    font-size: 0.7rem;
+}
+
+.badge-text-md {
+    font-size: 1rem;
+}
+
+.badge-green {
+    background: var(--c-green);
+}
+
+.badge-red {
+    background: var(--c-red);
+}
+
+.badge-yellow {
+    background: var(--c-yellow);
+}
+
+.badge-blue {
+    color: var(--c-white);
+    background: var(--c-blue);
+}
