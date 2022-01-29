@@ -1,0 +1,26 @@
+.border-radius-sm {
+    border-radius: 5px;
+}
+
+.border-top-radius-sm {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.border-top-left-radius-sm {
+    border-top-left-radius: 5px;
+}
+
+.border-radius-circle {
+    border-radius: 50%;
+}
+
+.border-thin {
+    border-style: solid;
+    border-width: thin;
+}
+
+.container-outlined {
+    background: transparent;
+    border-style: solid;
+}
