@@ -8,15 +8,6 @@
     background: var(--c-white);
 }
 
-.icon-close {
-    color: var(--c-darkgray);
-}
-
-.icon-close:hover {
-    cursor: pointer;
-    color: var(--c-white);
-}
-
 .card-image {
     width: 100%;
     object-fit: cover;
