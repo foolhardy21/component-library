@@ -1,4 +1,9 @@
+
 /* border */
+.border-radius-sm {
+    border-radius: 5px;
+}
+
 .border-radius-circle {
     border-radius: 50%;
 }
@@ -19,6 +24,16 @@
     justify-content: center;
 }
 
+.flex-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-horizontal-stretch {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* position */
 .pos-relative {
     position: relative;
@@ -26,6 +41,10 @@
 
 .pos-absolute {
     position: absolute;
+}
+
+.pos-fixed {
+    position: fixed;
 }
 
 .top-left-60 {
@@ -58,9 +77,12 @@
     left: 100%;
 }
 
+.bottom-right-5 {
+    bottom: 5%;
+    right: 5%;
+}
 
 /* width and heights */
-
 
 /* paddings and margins */
 
@@ -70,4 +92,19 @@
 
 .padding-md {
     padding: 0.5rem;
+}
+
+.padding-lg {
+    padding: 0.6rem;
+}
+
+.padding-xlg {
+    padding: 0.7rem;
+}
+
+/* skin */
+
+.container-outlined {
+    background: transparent;
+    border-style: solid;
 }
