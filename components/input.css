@@ -1,0 +1,20 @@
+.input-border-btm {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    outline-style: none;
+}
+
+.input-md {
+    width: 15rem;
+}
+
+.input-md:focus {
+    border-bottom-width: 0.18rem;
+    border-color: var(--c-blue);
+}
+
+.input-error {
+    border-bottom-width: 0.19rem;
+    border-color: var(--c-red);
+}

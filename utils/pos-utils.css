@@ -1,0 +1,55 @@
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-fixed {
+    position: fixed;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.top-left-60 {
+    top: 60%;
+    left: 60%;
+}
+
+.top-left-70 {
+    top: 70%;
+    left: 70%;
+}
+
+.top-left-100 {
+    top: 100%;
+    left: 100%;
+}
+
+.top-right-1 {
+    top: 1%;
+    right: 1%;
+}
+
+.bottom-left-60 {
+    bottom: 60%;
+    left: 60%;
+}
+
+.bottom-left-70 {
+    bottom: 70%;
+    left: 70%;
+}
+
+.bottom-left-100 {
+    bottom: 100%;
+    left: 100%;
+}
+
+.bottom-right-5 {
+    bottom: 5%;
+    right: 5%;
+}
