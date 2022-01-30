@@ -35,3 +35,7 @@
 .letter-space-md {
     letter-spacing: 0.03rem;
 }
+
+.letter-space-lg {
+    letter-spacing: 0.05rem;
+}
