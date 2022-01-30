@@ -10,6 +10,10 @@
     position: fixed;
 }
 
+.pos-sticky {
+    position: sticky;
+}
+
 .top-0 {
     top: 0;
 }
