@@ -1,5 +1,5 @@
 @import './colors.css';
-@import './typography.css';
+@import './utils/text-utils.css';
 
 @import './utils/border-utils.css';
 @import './utils/display-utils.css';
@@ -13,5 +13,6 @@
 @import './components/image.css';
 @import './components/input.css';
 @import './components/card.css';
+@import './components/toast.css';
 
 @import './media-queries.css';
