@@ -246,8 +246,13 @@
     </div>
 
     <h1>Images</h1>
-    <p>image size changes at 900px and 700px viewport width</p>
-    <img src='https://picsum.photos/500/500' alt='Random Image' class='img-lg img-cover' />
+    <p>densty switching at 900px</p>
+    <img srcset='https://picsum.photos/id/200/700/700 900w,
+    https://picsum.photos/id/200/300/300 300w' sizes="(min-width: 900px) 900px,
+    300px" alt='Hairy cow' class='img-cover' />
+    <p>responsive length</p>
+    <img src='https://picsum.photos/id/200/500/500' alt='Hairy cow' class='img-lg img-cover' />
+    <p>round image</p>
     <img src='https://picsum.photos/500/500' alt='Random Image' class='img-sm border-radius-circle img-cover' />
     <br />
 
