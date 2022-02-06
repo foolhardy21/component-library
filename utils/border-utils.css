@@ -2,6 +2,10 @@
     border-radius: 5px;
 }
 
+.border-radius-md {
+    border-radius: 10px;
+}
+
 .border-top-radius-sm {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -15,12 +19,43 @@
     border-radius: 50%;
 }
 
-.border-thin {
+.no-border {
+    border-style: none;
+}
+
+.border-solid {
     border-style: solid;
+}
+
+.border-thin {
     border-width: thin;
 }
 
-.container-outlined {
+.border-btm-thin {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+.no-outline {
+    outline-style: none;
+}
+
+.container-transparent {
     background: transparent;
-    border-style: solid;
+}
+
+.border-blue {
+    border-color: var(--c-darkblue);
+}
+
+.border-yellow {
+    border-color: var(--c-yellow);
+}
+
+.border-green {
+    border-color: var(--c-green);
+}
+
+.border-red {
+    border-color: var(--c-red);
 }

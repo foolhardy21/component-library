@@ -30,6 +30,5 @@
 }
 
 .badge-blue {
-    color: var(--c-white);
     background: var(--c-blue);
 }
