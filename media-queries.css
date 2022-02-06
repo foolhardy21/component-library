@@ -11,6 +11,10 @@
     .card-icon {
         font-size: 140%;
     }
+
+    .nav-icon {
+        font-size: 140%;
+    }
 }
 
 @media (max-width: 700px) {

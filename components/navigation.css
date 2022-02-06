@@ -8,16 +8,10 @@
     grid-template-areas: "menu heading heading ... ... icons";
 }
 
-.header-2 {
+.nav-grid-cols-lg {
     grid-template-areas: 
     "menu ... ... ... ... icons"
     "... heading heading ... ... ...";
-}
-
-.header-3 {
-    grid-template-areas: "nav icons";
-    width: 5rem;
-    border-bottom-right-radius: 20px;
 }
 
 .nav-menu {
