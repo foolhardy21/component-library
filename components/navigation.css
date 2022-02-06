@@ -1,0 +1,39 @@
+.nav {
+    background: var(--c-blue);
+    display: grid;
+    align-items: center;
+}
+
+.nav-grid-cols {
+    grid-template-areas: "menu heading heading ... ... icons";
+}
+
+.header-2 {
+    grid-template-areas: 
+    "menu ... ... ... ... icons"
+    "... heading heading ... ... ...";
+}
+
+.header-3 {
+    grid-template-areas: "nav icons";
+    width: 5rem;
+    border-bottom-right-radius: 20px;
+}
+
+.nav-menu {
+    grid-area: menu;
+}
+
+.nav-heading {
+    grid-area: heading;
+}
+
+.nav-icons-wrapper {
+    grid-area: icons;
+    justify-self: end;
+}
+
+.nav-icon:hover {
+    color: var(--c-lightgray);
+    cursor: pointer;
+}
