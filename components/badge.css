@@ -9,6 +9,11 @@
     height: 1rem;
 }
 
+.badge-size-lg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 .badge-text-sm {
     font-size: 0.7rem;
 }
@@ -30,6 +35,5 @@
 }
 
 .badge-blue {
-    color: var(--c-white);
     background: var(--c-blue);
 }
