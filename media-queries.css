@@ -8,14 +8,15 @@
         letter-spacing: 0.05rem;
     }
     
-    .card-icon {
+    .card-icon, .nav-icon {
         font-size: 140%;
     }
-
+  
     .grid-maxcols-2 {
         grid-template-areas: "item1"
         "item2";
     }
+    
     .grid-maxcols-3 {
         grid-template-areas: "item1 item2"
         "item3 item3";
