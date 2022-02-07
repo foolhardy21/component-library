@@ -45,3 +45,30 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.grid {
+    display: grid;
+}
+
+.grid-maxcols-2 {
+    grid-template-areas: "item1 item2";
+}
+
+.grid-maxcols-3 {
+    grid-template-areas: "item1 item2 item3";
+}
+
+.grid-item1 {
+    grid-area: item1;
+    background: var(--c-lightblue);
+}
+
+.grid-item2 {
+    grid-area: item2;
+    background: var(--c-blue);
+}
+
+.grid-item3 {
+    grid-area: item3;
+    background: var(--c-gray);
+}

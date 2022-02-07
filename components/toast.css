@@ -1,0 +1,11 @@
+
+.toast-position {
+    left: 50%;
+    bottom: 1rem;
+    margin-left: -15rem;
+}
+
+.toast {
+    background: var(--c-darkgray);
+    width: 30rem;
+}
