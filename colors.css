@@ -21,3 +21,36 @@
     --c-red: #f44336;
     --c-green: #4caf50;
 }
+
+
+.c-white {
+    color: var(--c-white);
+}
+
+.c-darkgray {
+    color: var(--c-darkgray);
+}
+
+.c-black {
+    color: var(--c-black);
+}
+
+.c-gray {
+    color: var(--c-gray);
+}
+
+.c-yellow {
+    color: var(--c-yellow);
+}
+
+.c-green {
+    color: var(--c-green);
+}
+
+.c-red {
+    color: var(--c-red);
+}
+
+.c-blue {
+    color: var(--c-darkblue);
+}

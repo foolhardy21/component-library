@@ -43,39 +43,3 @@
 .letter-space-lg {
     letter-spacing: 0.05rem;
 }
-
-.text-white {
-    color: var(--c-white);
-}
-
-.text-darkgray {
-    color: var(--c-darkgray);
-}
-
-.text-black {
-    color: var(--c-black);
-}
-
-.text-gray {
-    color: var(--c-gray);
-}
-
-.text-white {
-    color: var(--c-white);
-}
-
-.text-yellow {
-    color: var(--c-yellow);
-}
-
-.text-green {
-    color: var(--c-green);
-}
-
-.text-red {
-    color: var(--c-red);
-}
-
-.text-blue {
-    color: var(--c-darkblue);
-}
