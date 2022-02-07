@@ -15,5 +15,6 @@
 @import './components/card.css';
 @import './components/toast.css';
 @import './components/list.css';
+@import './components/rating.css';
 
 @import './media-queries.css';
