@@ -46,6 +46,10 @@
     justify-content: flex-end;
 }
 
+.no-display {
+    display: none;
+}
+
 .grid {
     display: grid;
 }

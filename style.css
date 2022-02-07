@@ -2,9 +2,7 @@
 @import './utils/text-utils.css';
 
 @import './utils/border-utils.css';
-@import './utils/display-utils.css';
 @import './utils/padding-margin-utils.css';
-@import './utils/pos-utils.css';
 
 @import './components/button.css';
 @import './components/alert.css';
@@ -16,5 +14,10 @@
 @import './components/toast.css';
 @import './components/list.css';
 @import './components/rating.css';
+@import './components/navigation.css';
+@import './components/modal.css';
+
+@import './utils/pos-utils.css';
+@import './utils/display-utils.css';
 
 @import './media-queries.css';

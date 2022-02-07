@@ -44,16 +44,20 @@
     letter-spacing: 0.05rem;
 }
 
-.text-dgray {
-    color: var(--c-darkgray);
+.text-white {
+    color: var(--c-white);
 }
 
-.text-gray {
-    color: var(--c-gray);
+.text-darkgray {
+    color: var(--c-darkgray);
 }
 
 .text-black {
     color: var(--c-black);
+}
+
+.text-gray {
+    color: var(--c-gray);
 }
 
 .text-white {

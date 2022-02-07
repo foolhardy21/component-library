@@ -1,0 +1,10 @@
+.modal-container {
+    background-color: rgb(0,0,0,0.4);
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal {
+    width: 20rem;
+    background: var(--c-white);
+}

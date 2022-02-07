@@ -17,24 +17,7 @@
     width: 30%;
 }
 
-.card-heading-black {
-    color: var(--c-black);
-}
-
-.card-subheading-black {
-    color: var(--c-black);
-}
-
-.card-text-fontstyle {
-    font-size: 0.9rem;
-    color: var(--c-darkgray);
-}
-
-.card-icon {
-    color: var(--c-darkgray);
-}
-
 .card-icon:hover {
     cursor: pointer;
-    color: var(--c-black);
+    /* color: var(--c-black); */
 }
