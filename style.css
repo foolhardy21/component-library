@@ -1,5 +1,5 @@
 @import './colors.css';
-@import './typography.css';
+@import './utils/text-utils.css';
 
 @import './utils/border-utils.css';
 @import './utils/display-utils.css';

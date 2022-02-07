@@ -4,50 +4,31 @@
 }
 
 .alert-basic {
-    color: var(--c-white);
     background: var(--c-darkgray);
 }
 
 .alert-error-outlined {
-    color: var(--c-red);
     border-color: var(--c-red);
 }
 
 .alert-warning-outlined {
-    color: var(--c-yellow);
     border-color: var(--c-yellow);
 }
 
 .alert-success-outlined {
-    color: var(--c-green);
     border-color: var(--c-green);
 }
 
 .alert-error-filled {
     background: var(--c-red);
-    color: var(--c-white);
 }
 
 .alert-warning-filled {
     background: var(--c-yellow);
-    color: var(--c-white);
 }
 
 .alert-success-filled {
     background: var(--c-green);
-    color: var(--c-white);
-}
-
-.icon-color-red {
-    color: var(--c-red);
-}
-
-.icon-color-yellow {
-    color: var(--c-yellow);
-}
-
-.icon-color-green {
-    color: var(--c-green);
 }
 
 .icon-close:hover {
