@@ -48,10 +48,34 @@
     color: var(--c-white);
 }
 
+.text-dgray {
+    color: var(--c-darkgray);
+}
+
 .text-black {
     color: var(--c-black);
 }
 
 .text-gray {
     color: var(--c-gray);
+}
+
+.text-white {
+    color: var(--c-white);
+}
+
+.text-yellow {
+    color: var(--c-yellow);
+}
+
+.text-green {
+    color: var(--c-green);
+}
+
+.text-red {
+    color: var(--c-red);
+}
+
+.text-blue {
+    color: var(--c-darkblue);
 }

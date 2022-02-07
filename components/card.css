@@ -38,16 +38,3 @@
     cursor: pointer;
     color: var(--c-black);
 }
-
-
-/* re-using this from button component because button is not merged yet */
-.btn-text {
-    background: transparent;
-    border-style: none;
-    color: var(--c-blue);
-}
-
-.btn-text:hover {
-    cursor: pointer;
-    background: var(--c-lightblue);
-}
