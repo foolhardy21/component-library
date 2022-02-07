@@ -175,6 +175,9 @@
     <div class='badge-size-sm badge-text-sm flex-center padding-sm border-radius-circle badge-blue'>
         4
     </div>
+    <div class='badge-size-lg text-uppercase badge-text-sm flex-center padding-md border-radius-sm badge-yellow text-bold letter-space-md'>
+        offer
+    </div>
 
     <h3>badges on icon bottom right</h3>
     <div class='inline-block pos-relative'>
@@ -243,8 +246,13 @@
     </div>
 
     <h1>Images</h1>
-    <p>image size changes at 900px and 700px viewport width</p>
-    <img src='https://picsum.photos/500/500' alt='Random Image' class='img-lg img-cover' />
+    <p>densty switching at 900px</p>
+    <img srcset='https://picsum.photos/id/200/700/700 900w,
+    https://picsum.photos/id/200/300/300 300w' sizes="(min-width: 900px) 900px,
+    300px" alt='Hairy cow' class='img-cover' />
+    <p>responsive length</p>
+    <img src='https://picsum.photos/id/200/500/500' alt='Hairy cow' class='img-lg img-cover' />
+    <p>round image</p>
     <img src='https://picsum.photos/500/500' alt='Random Image' class='img-sm border-radius-circle img-cover' />
     <br />
 
@@ -432,6 +440,20 @@
                 </span>
             </div>
         </footer>
+    </article><br />
+
+    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
+        <span class="material-icons pos-absolute top-right-1 icon-close">
+            close
+        </span>
+        <main class='flex-row border-top-radius-sm'>
+            <img src='https://picsum.photos/200/100' class='card-image border-top-left-radius-sm card-horizontal-image' />
+            <div class='flex-grow-1'>
+                <p class='margin-0 font-size-md text-capital text-bold letter-space-md card-heading-black margin-horizontal-xxlg margin-top-lg'>our changing planet</p>
+                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm card-subheading-black margin-horizontal-xxlg margin-top-sm'>by Kurt Wagner</p>
+                <button class='font-size-sm letter-space-sm btn-text border-radius-sm text-uppercase padding-md margin-top-md btn-footer'>read</button>
+            </div>
+        </main>
     </article><br />
 
     <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>

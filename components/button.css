@@ -32,3 +32,7 @@
 .btn-outlined:hover {
     cursor: pointer;
 }
+
+.btn-footer {
+    width: 100%;
+}
