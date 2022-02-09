@@ -54,3 +54,11 @@
 .c-blue {
     color: var(--c-darkblue);
 }
+
+.c-lightblue {
+    color: var(--c-lightblue);
+}
+
+.c-lightgray {
+    color: var(--c-lightgray);
+}
