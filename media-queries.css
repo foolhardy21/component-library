@@ -27,4 +27,10 @@
     html {
         font-size: 70%;
     }
+    
+    .grid-maxcols-3 {
+        grid-template-areas: "item1"
+        "item2"
+        "item3";
+    }
 }
