@@ -62,6 +62,10 @@
     grid-template-areas: "item1 item2 item3";
 }
 
+.grid-maxcols-4 {
+    grid-template-areas: "item1 item2 item3 item4";
+}
+
 .grid-item1 {
     grid-area: item1;
     background: var(--c-lightblue);
@@ -75,4 +79,9 @@
 .grid-item3 {
     grid-area: item3;
     background: var(--c-gray);
+}
+
+.grid-item4 {
+    grid-area: item4;
+    background: var(--c-darkgray);
 }

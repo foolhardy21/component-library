@@ -21,6 +21,11 @@
         grid-template-areas: "item1 item2"
         "item3 item3";
     }
+
+    .grid-maxcols-4 {
+        grid-template-areas: "item1 item2"
+        "item3 item4";
+    }
 }
 
 @media (max-width: 700px) {
@@ -32,5 +37,12 @@
         grid-template-areas: "item1"
         "item2"
         "item3";
+    }
+
+    .grid-maxcols-4 {
+        grid-template-areas: "item1"
+        "item2"
+        "item3"
+        "item4";
     }
 }
