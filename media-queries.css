@@ -1,3 +1,9 @@
+@media (max-width: 1100px) {
+    .grid-maxcols-4 {
+        grid-template-areas: "item1 item2 item3"
+        "item4 item4 item4";
+    }
+}
 
 @media (max-width: 900px) {
     html {
