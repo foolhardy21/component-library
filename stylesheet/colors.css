@@ -2,7 +2,7 @@
     --clr-primary: #ffffff;
     --clr-off-primary: #CCCAC9;
     --clr-secondary: #000000;
-    
+    --clr-off-secondary: #323232;
     --clr-accent: #e91c23;
     
     --clr-warning: #FFCE00;
@@ -18,7 +18,15 @@
 }
 
 .txt-secondary {
+    color: var(--clr-primary)
+}
+
+.txt-off-primary {
     color: var(--clr-off-primary)
+}
+
+.txt-off-secondary {
+    color: var(--clr-off-secondary)
 }
 
 .txt-accent {
@@ -41,29 +49,33 @@
 /* colors for backgrounds  */
 
 .bg-primary {
-    color: var(--clr-primary);
+    background: var(--clr-primary);
 }
 
 .bg-off-primary {
-    color: var(--clr-off-primary)
+    background: var(--clr-off-primary)
+}
+
+.bg-off-secondary {
+    background: var(--clr-off-secondary)
 }
 
 .bg-secondary {
-    color: var(--clr-secondary);
+    background: var(--clr-secondary);
 }
 
 .bg-accent {
-    color: var(--clr-accent);
+    background: var(--clr-accent);
 }
 
 .bg-err {
-    color: var(--clr-error);
+    background: var(--clr-error);
 }
 
 .bg-warn {
-    color: var(--clr-warning);
+    background: var(--clr-warning);
 }
 
 .bg-success {
-    color: var(--clr-success);
+    background: var(--clr-success);
 }

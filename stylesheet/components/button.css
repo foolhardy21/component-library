@@ -1,19 +1,32 @@
-.btn-text:hover {
-    cursor: pointer;
-    background: var(--c-lightblue);
+.btn-txt {
+    border-style: none;
+    background: transparent;
 }
 
-.btn-filled {
-    background: var(--c-blue);
+.btn-txt:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
-.btn-filled:hover {
+.btn-solid {
+    border-style: none;
+}
+
+.btn-solid:hover {
     cursor: pointer;
-    background: var(--c-darkblue);
+    background: var(--clr-off-secondary);
+}
+
+.btn-outlined {
+    border-style: solid;
+    border-color: var(--clr-secondary);
+    background: transparent;
 }
 
 .btn-outlined:hover {
     cursor: pointer;
+    color: var(--clr-off-secondary);
+    border-color: var(--clr-off-secondary);
 }
 
 .btn-footer {

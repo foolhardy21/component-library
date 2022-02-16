@@ -9,7 +9,7 @@
     <link rel='stylesheet' href='./stylesheet/main.css' />
     <title>Component Library</title>
 </head>
-<body>
+<body class="pd-md">
 
     <h1>Lists</h1>
     <h3>simple</h3>
@@ -175,52 +175,30 @@
     </section>
         
     <h1>Buttons</h1>
-    <h3>text buttons</h3>
-    <button class='btn-text c-blue no-border container-transparent font-size-sm padding-md text-uppercase text-bold letter-space-sm border-radius-sm'>
-        text
-    </button>
-    <button class='btn-text c-blue no-border container-transparent font-size-md padding-lg text-uppercase text-bold letter-space-sm border-radius-sm'>
-        text
-    </button>
-    <button class='btn-text c-blue no-border container-transparent font-size-lg padding-xlg text-uppercase text-bold letter-space-md border-radius-sm'>
+    <h3>text button</h3>
+    <button class='btn-txt txt-primary txt-md pd-xs txt-ucase'>
         text
     </button>
     
-    <h3>contained buttons</h3>
-    <button class='btn-filled c-white no-border font-size-sm padding-md text-uppercase text-bold letter-space-sm border-radius-sm'>filled</button>
-    <button class='btn-filled c-white no-border font-size-md padding-lg text-uppercase text-bold letter-space-sm border-radius-sm'>filled</button>
-    <button class='btn-filled c-white no-border font-size-lg padding-xlg text-uppercase text-bold letter-space-md border-radius-sm'>filled</button>
+    <h3>solid button</h3>
+    <button class='btn-solid txt-md pd-xs txt-ucase bg-secondary txt-secondary'>solid</button>
+
+    <h3>outlined button</h3>
+    <button class='btn-outlined txt-ucase txt-md pd-xs'>outlined</button>
     
-    <h3>outlined buttons</h3>
-    <button class='btn-outlined c-blue border-blue container-transparent border-thin text-uppercase text-bold font-size-sm padding-md letter-space-sm border-radius-sm'>outlined</button>
-    <button class='btn-outlined c-blue border-blue container-transparent border-thin text-uppercase text-bold font-size-md padding-lg letter-space-sm border-radius-sm'>outlined</button>
-    <button class='btn-outlined c-blue border-blue container-transparent border-thin text-uppercase text-bold font-size-lg padding-xlg letter-space-md border-radius-sm'>outlined</button>
-    
-    <h3>icons with text buttons</h3>
-    <button class='btn-filled c-white no-border flex-center text-uppercase text-bold padding-md font-size-sm letter-space-sm border-radius-sm'>
+    <h3>icons with text as solid button</h3>
+    <button class='btn-solid txt-secondary bg-secondary flx flx-center txt-ucase pd-xs txt-md'>
         <span class='material-icons'>
             delete
         </span>
         delete
     </button>
 
-    <h3>icons with contained buttons</h3>
-    <button class='btn-outlined c-blue border-blue container-transparent border-thin flex-center text-uppercase text-bold padding-md font-size-sm letter-space-sm border-radius-sm'>
-        <span class='material-icons'>
-            delete
-        </span>
-        delete
-    </button>
-
-    <h3>icon buttons</h3>
-    <button class='btn-text c-blue container-transparent no-border padding-lg flex-center border-radius-circle'>
+    <h3>icon button</h3>
+    <button class='btn-solid txt-secondary bg-secondary pd-xs flx flx-center brd-full'>
         <span class='material-icons'>alarm</span>
     </button>
-    <button class='btn-text c-blue container-transparent no-border padding-lg flex-center pos-fixed bottom-right-5 border-radius-circle'>
-        <span class='material-icons'>download</span>
-    </button>
-    <h5>float action button in bottom right corner</h5>
-
+    
     <h1>Alerts</h1>
     <h3>basic error</h3>
     <div class='flex-horizontal-stretch padding-md font-size-sm letter-space-sm alert-size-md alert-basic c-white border-radius-sm'>
