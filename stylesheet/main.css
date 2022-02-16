@@ -3,7 +3,7 @@
 @import './utils/text-utils.css';
 
 @import './utils/border-utils.css';
-@import './utils/padding-margin-utils.css';
+@import './utils/spacing-utils.css';
 
 @import './components/button.css';
 @import './components/alert.css';
