@@ -5,6 +5,7 @@
 @import './utils/border-utils.css';
 @import './utils/spacing-utils.css';
 
+@import './utils/icon-utils.css';
 @import './components/button.css';
 @import './components/alert.css';
 @import './components/badge.css';

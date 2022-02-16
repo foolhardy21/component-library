@@ -42,3 +42,40 @@
     text-transform: capitalize;
 } 
 
+/* font weights */
+
+.txt-100 {
+    font-weight: 100;
+}
+
+.txt-200 {
+    font-weight: 200;
+}
+
+.txt-300 {
+    font-weight: 300;
+}
+
+.txt-400 {
+    font-weight: 400;
+}
+
+.txt-500 {
+    font-weight: 500;
+}
+
+.txt-600 {
+    font-weight: 600;
+}
+
+.txt-700 {
+    font-weight: 700;
+}
+
+.txt-800 {
+    font-weight: 800;
+}
+
+.txt-900 {
+    font-weight: 900;
+}
