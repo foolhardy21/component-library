@@ -1,0 +1,69 @@
+:root {
+    --clr-primary: #ffffff;
+    --clr-off-primary: #CCCAC9;
+    --clr-secondary: #000000;
+    
+    --clr-accent: #e91c23;
+    
+    --clr-warning: #FFCE00;
+    --clr-success: #4caf50;
+    --clr-error: #f44336;
+}
+
+
+/* colors for text  */
+
+.txt-primary {
+    color: var(--clr-secondary);
+}
+
+.txt-secondary {
+    color: var(--clr-off-primary)
+}
+
+.txt-accent {
+    color: var(--clr-accent);
+}
+
+.txt-err {
+    color: var(--clr-error);
+}
+
+.txt-warn {
+    color: var(--clr-warning);
+}
+
+.txt-success {
+    color: var(--clr-success);
+}
+
+
+/* colors for backgrounds  */
+
+.bg-primary {
+    color: var(--clr-primary);
+}
+
+.bg-off-primary {
+    color: var(--clr-off-primary)
+}
+
+.bg-secondary {
+    color: var(--clr-secondary);
+}
+
+.bg-accent {
+    color: var(--clr-accent);
+}
+
+.bg-err {
+    color: var(--clr-error);
+}
+
+.bg-warn {
+    color: var(--clr-warning);
+}
+
+.bg-success {
+    color: var(--clr-success);
+}
