@@ -1,33 +1,33 @@
-.avatar {
-    object-fit: cover;
-}
 
-.avatar-size-sm {
-    width: 3rem;
-    height: 3rem;
-}
-
-.avatar-size-md {
-    width: 4rem;
-    height: 4rem;
-}
-
-.avatar-size-lg {
-    width: 5rem;
-    height: 5rem;
-}
-
-.avatar-size-xlg {
-    width: 7rem;
-    height: 7rem;
-}
 
 .avatar-border-blue {
-    border-color: var(--c-blue);
+    /* border-color: var(--c-blue); */
 }
 
-.avatar-overlap {
-    margin-left: -8%;
+.avt-overlap-xs {
+    margin-left: -0.5rem;
 }
+
+.avt-overlap-s {
+    margin-left: -1rem;
+}
+
+.avt-overlap-md {
+    margin-left: -1.5rem;
+}
+
+.avt-overlap-lg {
+    margin-left: -2rem;
+}
+
+.avt-overlap-xlg {
+    margin-left: -3rem;
+}
+
+.avt-overlap-xxlg {
+    margin-left: -4rem;
+}
+
+
 
 

@@ -261,3 +261,18 @@
 .mg-btm-xxlg {
     margin-bottom: 4rem;
 }
+
+
+/* negative margin */
+
+.mg-left-xs {
+    margin-left: -0.5rem;
+}
+
+.mg-left-s {
+    margin-left: -1rem;
+}
+
+.mg-left-md {
+    margin-left: -1.5rem;
+}
