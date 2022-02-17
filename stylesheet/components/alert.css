@@ -1,40 +1,9 @@
+/* alert container sizes */
+
 .alert-size-s {
     width: 20rem;
 }
 
 .alert-size-md {
     width: 30rem;
-}
-
-.alert-basic {
-    background: var(--c-darkgray);
-}
-
-.alert-error-outlined {
-    border-color: var(--c-red);
-}
-
-.alert-warning-outlined {
-    border-color: var(--c-yellow);
-}
-
-.alert-success-outlined {
-    border-color: var(--c-green);
-}
-
-.alert-error-filled {
-    background: var(--c-red);
-}
-
-.alert-warning-filled {
-    background: var(--c-yellow);
-}
-
-.alert-success-filled {
-    background: var(--c-green);
-}
-
-.icon-close:hover {
-    cursor: pointer;
-    color: var(--c-gray);
 }

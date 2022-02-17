@@ -1,3 +1,4 @@
+/* badge sizes */
 
 .badge-size-xs {
     width: 0.5rem;
@@ -28,37 +29,3 @@
     width: 4rem;
     height: 4rem;
 }
-
-/* .badge-size-md {
-    width: 1rem;
-    height: 1rem;
-}
-
-.badge-size-lg {
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-.badge-text-sm {
-    font-size: 0.7rem;
-}
-
-.badge-text-md {
-    font-size: 1rem;
-} */
-
-/* .badge-green {
-    background: var(--clr-success);
-}
-
-.badge-red {
-    background: var(--clr-error);
-}
-
-.badge-yellow {
-    background: var(--clr-warning);
-}
-
-.badge-blue {
-    background: var(--c-blue);
-} */

@@ -1,23 +1,28 @@
+/* card box shadow */
 
-.card-shadow-sm {
-    box-shadow: 0 0 5px -2px;
+.card-shadow-xs {
+    box-shadow: 0 0 4px -2px;
 }
 
-.card-wrapper {
-    width: 22rem;
-    background: var(--c-white);
+
+/* card container dimensions */
+
+.card-dim {
+    width: max-content;
+    height: max-content;
 }
 
-.card-image {
-    width: 100%;
-    object-fit: cover;
+
+/* card text widths */
+
+.card-txtw-xs {
+    width: 20ch;
 }
 
-.card-horizontal-image {
-    width: 30%;
+.card-txtw-s {
+    width: 30ch;
 }
 
-.card-icon:hover {
-    cursor: pointer;
-    /* color: var(--c-black); */
+.card-txtw-md {
+    width: 40ch;
 }

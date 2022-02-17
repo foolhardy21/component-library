@@ -184,7 +184,7 @@
     <button class='btn-solid txt-md pd-xs txt-ucase bg-secondary txt-secondary'>solid</button>
 
     <h3>outlined button</h3>
-    <button class='btn-outlined txt-ucase txt-md pd-xs'>outlined</button>
+    <button class='btn-outlined b-solid b-secondary txt-ucase txt-md pd-xs'>outlined</button>
     
     <h3>icons with text as solid button</h3>
     <button class='btn-solid txt-secondary bg-secondary flx flx-center txt-ucase pd-xs txt-md'>
@@ -210,7 +210,7 @@
                 This is an error alert — check it out!
             </p>
         </div>
-        <span class='material-icons icon-primary'>close</span>
+        <span class='material-icons icon-secondary'>close</span>
     </div>
 
     <h3>basic warning</h3>
@@ -223,7 +223,7 @@
                 This is a warning alert — check it out!
             </p>
         </div>
-        <span class='material-icons icon-primary'>close</span>
+        <span class='material-icons icon-secondary'>close</span>
     </div>
 
     <h3>basic success</h3>
@@ -236,7 +236,7 @@
                 This is a success alert — check it out!
             </p>
         </div>
-        <span class='material-icons icon-primary'>close</span>
+        <span class='material-icons icon-secondary'>close</span>
     </div>
         
     <h3>solid error</h3>
@@ -249,7 +249,7 @@
                 This is an error alert — check it out!
             </p>
         </div>
-        <span class='material-icons icon-secondary'>close</span>
+        <span class='material-icons icon-primary'>close</span>
     </div>
 
     <h3>solid warning</h3>
@@ -262,7 +262,7 @@
                 This is an warning alert — check it out!
             </p>
         </div>
-        <span class='material-icons icon-secondary'>close</span>
+        <span class='material-icons icon-primary'>close</span>
     </div>
 
     <h3>solid success</h3>
@@ -275,7 +275,7 @@
                 This is an success alert — check it out!
             </p>
         </div>
-        <span class='material-icons icon-secondary'>close</span>
+        <span class='material-icons icon-primary'>close</span>
     </div>
 
     <h1>Badges</h1>
@@ -320,10 +320,10 @@
     
     <h3>avatar group</h3>
     <div class='inline-block'>
-        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-primary img-fit-cover' />
-        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-primary img-fit-cover avt-overlap-xlg' />
-        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-primary img-fit-cover avt-overlap-xlg' />
-        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-primary img-fit-cover avt-overlap-xlg' />
+        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-secondary img-fit-cover' />
+        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-secondary img-fit-cover avt-overlap-xlg' />
+        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-secondary img-fit-cover avt-overlap-xlg' />
+        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-secondary img-fit-cover avt-overlap-xlg' />
     </div>
     
     <h3>avatar with badge</h3>
@@ -352,248 +352,205 @@
     <button id='submit-btn' class='btn-text container-transparent c-blue no-border padding-md'>submit</button>
         
     <h1>Cards</h1>
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
+    <h3>text only card</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-secondary">
             close
         </span>
-        <main class='border-top-radius-sm'>
-            <header class='padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 margin-top-sm letter-space-sm font-capital c-black font-size-sm'>by Kurt Wagner</p>
-            </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
+        <header class='pd-md'>
+            <p class='txt-lg txt-600 txt-cap txt-primary'>our changing planet</p>
+            <p class='txt-cap txt-primary txt-md'>by Kurt Wagner</p>
+        </header>
+        <main>
+            <p class='card-txtw-md txt-off-primary txt-md pd-xs'>Visit ten places on our planet that are undergoing the biggest changes today.
             </p>
         </main>
-            <footer class='margin-0 margin-horizontal-xxlg flex-horizontal-stretch'>
+            <footer class='pd-xs flx flx-maj-stretch'>
                 <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
+                    <button class='txt-md btn-solid bg-secondary txt-secondary txt-ucase pd-xs'>
+                        buy
                     </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
+                    <button class='txt-md btn-txt txt-primary txt-ucase pd-xs'>
+                        add to cart
+                    </button>
+                </div>
+                <div class='flx flx-min-center'>
+                    <span class="material-icons mg-right-xs icon-primary">
+                        favorite_border
+                    </span>
+                    <span class="material-icons mg-right-xs icon-primary">
+                        share
+                    </span>
+                    <span class="material-icons icon-primary">
+                        more_vert
+                    </span>
+                </div>
+            </footer>
+    </article><br />
+
+    <h3>text with image card-small</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-primary">
+            close
+        </span>
+        <main>
+            <img src='./assets/card-img.jpg' class='img-fit-cover' />
+            <header class='pd-xs'>
+                <p class='txt-lg txt-500 txt-cap txt-primary'>our changing planet</p>
+                <p class='txt-cap txt-primary txt-md'>by Kurt Wagner</p>
+            </header>
+            <p class='card-txtw-s txt-off-primary txt-md pd-xs'>Visit ten places on our planet that are undergoing the biggest changes today.
+            </p>
+        </main>
+            <footer class='flx flx-maj-stretch pd-xs'>
+                <div>
+                    <button class='txt-md btn-solid txt-secondary bg-secondary txt-ucase pd-xs'>
+                        buy
+                    </button>
+                    <button class='txt-md btn-txt txt-primary txt-ucase pd-xs'>
+                        add to cart
+                    </button>
+                </div>
+                <div class='flx flx-min-center'>
+                    <span class="material-icons mg-right-xs icon-primary">
+                        favorite_border
+                    </span>
+                    <span class="material-icons mg-right-xs icon-primary">
+                        share
+                    </span>
+                    <span class="material-icons icon-primary">
+                        more_vert
+                    </span>
+                </div>
+            </footer>
+    </article><br />
+
+    <h3>text with image card-large</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-primary">
+            close
+        </span>
+        <main>
+            <img src='./assets/card-img-2.jpg' class='img-fit-cover' />
+            <header class='pd-xs'>
+                <p class='txt-lg txt-500 txt-cap txt-primary'>our changing planet</p>
+                <p class='txt-cap txt-primary txt-md'>by Kurt Wagner</p>
+            </header>
+            <p class='card-txtw-md txt-off-primary txt-md pd-xs'>Visit ten places on our planet that are undergoing the biggest changes today.
+            </p>
+        </main>
+            <footer class='flx flx-maj-stretch pd-xs'>
+                <div>
+                    <button class='txt-md btn-solid txt-secondary bg-secondary txt-ucase pd-xs'>
+                        buy
+                    </button>
+                <button class='txt-md btn-txt txt-primary txt-ucase pd-xs'>
+                    add to cart
                 </button>
-            </div>
-            <div class='flex-vertical-center c-darkgray'>
-                <span class="material-icons margin-right-xxlg card-icon">
+                </div>
+                <div class='flx flx-min-center'>
+                    <span class="material-icons mg-right-xs icon-primary">
+                        favorite_border
+                    </span>
+                    <span class="material-icons mg-right-xs icon-primary">
+                        share
+                    </span>
+                    <span class="material-icons icon-primary">
+                        more_vert
+                    </span>
+                </div>
+            </footer>
+    </article><br />
+
+    <h3>text overlay card</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-primary">
+            close
+        </span>
+        <header class='pd-s pos-absolute t-0'>
+            <p class='txt-md txt-cap txt-500 txt-primary bg-primary'>our changing planet</p>
+            <p class='txt-md txt-cap txt-primary bg-primary'>by Kurt Wagner</p>
+        </header>
+        <main>
+            <img src='./assets/card-img.jpg' class='img-fit-cover' />
+            <p class='txt-off-primary card-txtw-s txt-md pd-xs'>Visit ten places on our planet that are undergoing the biggest changes today.
+            </p>
+        </main>
+            <footer class='flx flx-maj-stretch pd-xs'>
+                <div>
+                    <button class='txt-md btn-solid txt-secondary bg-secondary txt-ucase pd-xs'>
+                        buy
+                    </button>
+                    <button class='txt-md btn-txt txt-primary txt-ucase pd-xs'>
+                        add to cart
+                    </button>
+                </div>
+            <div class='flx flx-min-center'>
+                <span class="material-icons mg-right-xs icon-primary">
                     favorite_border
                 </span>
-                <span class="material-icons margin-right-xxlg card-icon">
+                <span class="material-icons mg-right-xs icon-primary">
                     share
                 </span>
-                <span class="material-icons margin-right-xxlg card-icon">
+                <span class="material-icons mg-right-xs icon-primary">
                     more_vert
                 </span>
             </div>
         </footer>
     </article><br />
 
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
+    <h3>header first card</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-primary">
             close
         </span>
-        <main class='border-top-radius-sm'>
-            <img src='https://picsum.photos/400/300' class='card-image border-top-radius-sm' />
-            <header class='padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 margin-top-sm letter-space-sm font-capital c-black font-size-sm'>by Kurt Wagner</p>
+        <main class='flx flx-column'>
+            <img src='./assets/card-img.jpg' class='img-fit-cover' />
+            <header class='flx-order-start pd-s'>
+                <p class='txt-md txt-cap txt-500 txt-primary'>our changing planet</p>
+                <p class='txt-md txt-cap txt-primary'>by Kurt Wagner</p>
             </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
+            <p class='txt-off-primary txt-md card-txtw-s pd-xs'>Visit ten places on our planet that are undergoing the biggest changes today.
             </p>
         </main>
-            <footer class='margin-0 margin-horizontal-xxlg flex-horizontal-stretch'>
+            <footer class='flx flx-maj-stretch pd-xs'>
                 <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
+                    <button class='txt-md btn-solid txt-secondary bg-secondary txt-ucase pd-xs'>
+                        buy
                     </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
-                </button>
-            </div>
-            <div class='flex-vertical-center c-darkgray'>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    favorite_border
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    share
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    more_vert
-                </span>
-            </div>
-        </footer>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='border-top-radius-sm'>
-            <img src='https://picsum.photos/300/200' class='card-image border-top-radius-sm' />
-            <header class='padding-xxlg pos-absolute top-0'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black'>by Kurt Wagner</p>
-            </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
-            </p>
-        </main>
-            <footer class='margin-0 margin-horizontal-xxlg flex-horizontal-stretch'>
-                <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
+                    <button class='txt-md btn-txt txt-primary txt-ucase pd-xs'>
+                        add to cart
                     </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
-                </button>
-            </div>
-            <div class='flex-vertical-center c-darkgray'>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    favorite_border
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    share
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    more_vert
-                </span>
-            </div>
-        </footer>
+                </div>
+                <div class='flx flx-min-center'>
+                    <span class="material-icons mg-right-xs icon-primary">
+                        favorite_border
+                    </span>
+                    <span class="material-icons mg-right-xs icon-primary">
+                        share
+                    </span>
+                    <span class="material-icons icon-primary">
+                        more_vert
+                    </span>
+                </div>
+            </footer>
     </article><br />
 
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
+    <h3>horizontal card</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-primary">
             close
         </span>
-        <main class='flex-column border-top-radius-sm'>
-            <img src='https://picsum.photos/500/400' class='card-image' />
-            <header class='flex-order-start padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black'>by Kurt Wagner</p>
-            </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
-            </p>
-        </main>
-            <footer class='margin-0 margin-horizontal-xxlg flex-horizontal-stretch'>
-                <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
-                    </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
-                </button>
-            </div>
-            <div class='flex-vertical-center c-darkgray'>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    favorite_border
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    share
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    more_vert
-                </span>
-            </div>
-        </footer>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='flex-row border-top-radius-sm'>
-            <img src='https://picsum.photos/200/100' class='card-image border-top-left-radius-sm card-horizontal-image' />
-            <header class='padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black'>by Kurt Wagner</p>
-            </header>
-        </main>
-            <footer class='margin-0 margin-top-sm margin-horizontal-xxlg flex-horizontal-stretch'>
-                <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
-                    </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
-                </button>
-            </div>
-            <div class='flex-vertical-center c-darkgray'>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    favorite_border
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    share
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    more_vert
-                </span>
-            </div>
-        </footer>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='flex-row border-top-radius-sm'>
-            <img src='https://picsum.photos/200/100' class='card-image border-top-left-radius-sm card-horizontal-image' />
-            <div class='flex-grow-1'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black margin-horizontal-xxlg margin-top-lg'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black margin-horizontal-xxlg margin-top-sm'>by Kurt Wagner</p>
-                <button class='font-size-sm letter-space-sm btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md margin-top-md btn-footer'>read</button>
+        <main class='flx flx-row'>
+            <img src='./assets/card-img.jpg' class='img-fit-cover' />
+            <div class='flx-grow-1 pd-s'>
+                <p class='txt-md txt-cap text-500 txt-primary'>our changing planet</p>
+                <p class='txt-md txt-cap txt-primary'>by Kurt Wagner</p>
+                <p class='txt-off-primary txt-md card-txtw-s mg-top-md'>Visit ten places on our planet that are undergoing the biggest changes today.
+                </p>
+                <button class='txt-md btn-solid btn-width-full txt-secondary bg-secondary txt-ucase pd-xs mg-top-md'>read</button>
             </div>
         </main>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='border-top-radius-sm'>
-            <img src='https://picsum.photos/400/400' class='card-image border-top-radius-sm' />
-            <header class='padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black'>by Kurt Wagner</p>
-            </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
-            </p>
-        </main>
-            <footer class='margin-0 margin-top-sm margin-horizontal-xxlg flex-horizontal-start'>
-                <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
-                    </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
-                </button>
-            </div>
-        </footer>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='border-top-radius-sm'>
-            <img src='https://picsum.photos/400/400' class='card-image border-top-radius-sm' />
-            <header class='padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black'>by Kurt Wagner</p>
-            </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
-            </p>
-        </main>
-            <footer class='margin-0 margin-top-sm margin-horizontal-xxlg flex-horizontal-end c-darkgray'>
-            <div>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    favorite_border
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    share
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    more_vert
-                </span>
-            </div>
-        </footer>
     </article><br />
 
     <h1>Grids responsive at 900px width</h1>

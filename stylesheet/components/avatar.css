@@ -1,8 +1,4 @@
-
-
-.avatar-border-blue {
-    /* border-color: var(--c-blue); */
-}
+/* negative margins for avatar group  */
 
 .avt-overlap-xs {
     margin-left: -0.5rem;
@@ -27,7 +23,4 @@
 .avt-overlap-xxlg {
     margin-left: -4rem;
 }
-
-
-
 

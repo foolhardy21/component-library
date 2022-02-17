@@ -22,11 +22,11 @@
 }
 
 .txt-off-primary {
-    color: var(--clr-off-primary)
+    color: var(--clr-off-secondary)
 }
 
 .txt-off-secondary {
-    color: var(--clr-off-secondary)
+    color: var(--clr-off-primary)
 }
 
 .txt-accent {
