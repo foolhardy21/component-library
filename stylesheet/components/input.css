@@ -1,14 +1,34 @@
+/* input style */
+.input {
+    outline: none;
+    border-style: none;
+}
+/* input width */
+
+.input-s {
+    width: 10rem;
+}
 
 .input-md {
     width: 15rem;
 }
 
-.input-md:focus {
-    border-bottom-width: 0.18rem;
-    border-color: var(--c-blue);
+.input-lg {
+    width: 20rem;
 }
 
-.input-error {
+.input-xlg {
+    width: 30rem;
+}
+
+.input:focus {
+    border-bottom-style: solid;
+    border-bottom-width: 0.18rem;
+    border-color: var(--clr-secondary);
+}
+
+.input-err {
+    border-bottom-style: solid;
     border-bottom-width: 0.19rem;
-    border-color: var(--c-red);
+    border-color: var(--clr-error);
 }

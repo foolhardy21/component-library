@@ -2,6 +2,11 @@ const formSubmit = document.querySelector('#submit-btn')
 const formInput = document.querySelector('#input')
 const drawerItems = document.querySelectorAll('.list-menu-item')
 const starIcons = document.querySelectorAll('#star-icon')
+const openDialogBtn = document.querySelector('.open-modal')
+const modalDiv = document.querySelector('.modal')
+const modalContainer = document.querySelector('.modal-container')
+const dialogActionBtn = document.querySelectorAll('.dialog-action-btn')
+
 
 starIcons.forEach(starIcon => {
     starIcon.addEventListener('click', (e) => {
@@ -25,10 +30,6 @@ drawerItems.forEach((item) => {
     })  
 })
 
-const openDialogBtn = document.querySelector('.open-modal')
-const modalDiv = document.querySelector('.modal')
-const modalContainer = document.querySelector('.modal-container')
-const dialogActionBtn = document.querySelectorAll('.dialog-action-btn')
 
 openDialogBtn.addEventListener('click', () => {
     modalContainer.classList.remove('no-display')
@@ -48,9 +49,9 @@ dialogActionBtn.forEach(actionBtn => {
 
 formSubmit.addEventListener('click', () => {
     formInput.value= ''
-    formInput.classList.add('input-error')
+    formInput.classList.add('input-err')
     setTimeout(() => {
-        formInput.classList.remove('input-error')
-    },2000)
+        formInput.classList.remove('input-err')
+    },3000)
 })
 
