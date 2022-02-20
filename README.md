@@ -1,6 +1,11 @@
 # SpaceUI Component Library
 
-### This library is made with HTML, CSS and JS only.
+This library consists of responsive components made with HTML, CSS and JS. 
+
+Visit [this](https://festive-mestorf-acecb0.netlify.app/) link to see the hosted version of the components.  
+
+Visit this link to see the documentation site.
+[SpaceUI](https://zen-bartik-5ee75e.netlify.app/)
 
 Following is the list of components it offers:
 
@@ -19,8 +24,5 @@ Following is the list of components it offers:
 - Toast
 - Grids
 - Apart from above components, it also has other utilities for spacing, display and positioning.
-
-Click the link to read the documentation.
-[SpaceUI](https://zen-bartik-5ee75e.netlify.app/)
 
 To run this app locally, fork and clone the repo and run `index.html` in your browser.
