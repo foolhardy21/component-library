@@ -13,9 +13,10 @@ starIcons.forEach(starIcon => {
         const maxRating = e.target.dataset.value
         starIcons.forEach(star => {
             if(star.dataset.value <= maxRating) {
-                star.style.color = 'var(--c-yellow)' 
+                star.classList.add('txt-warn')  
             } else {
-                star.style.color = 'var(--c-gray)' 
+                star.classList.remove('txt-warn')
+                star.classList.add('txt-off-secondary')  
             }
         })
     })

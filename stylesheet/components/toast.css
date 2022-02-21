@@ -1,11 +1,19 @@
-
-.toast-position {
-    left: 50%;
-    bottom: 1rem;
-    margin-left: -15rem;
+.toast-container {
+    width: 100%;
 }
 
-.toast {
-    background: var(--c-darkgray);
-    width: 30rem;
+.toast-pos {
+    bottom: 1rem;
+}
+
+.toast-s {
+    width: 20rem;
+}
+
+.toast-md {
+    width: 35rem;
+}
+
+.toast-lg {
+    width: 50rem;
 }
