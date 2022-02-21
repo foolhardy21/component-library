@@ -1,6 +1,6 @@
 const formSubmit = document.querySelector('#submit-btn')
 const formInput = document.querySelector('#input')
-const drawerItems = document.querySelectorAll('.list-menu-item')
+const listItems = document.querySelectorAll('.list-itm')
 const starIcons = document.querySelectorAll('#star-icon')
 const openDialogBtn = document.querySelector('.open-modal')
 const modalDiv = document.querySelector('.modal')
@@ -21,12 +21,17 @@ starIcons.forEach(starIcon => {
     })
 })
 
-drawerItems.forEach((item) => {
+listItems.forEach((item) => {
+    item.addEventListener('mouseover', () => {
+        item.style.cursor = 'pointer'
+    })
     item.addEventListener('click', () => {
-        drawerItems.forEach(item2 => {
-            item2.classList.remove('list-menu-item-active')    
+        listItems.forEach(item2 => {
+            item2.classList.remove('txt-600')
+            item2.classList.remove('bg-off-primary')    
         })
-        item.classList.add('list-menu-item-active')
+        item.classList.add('txt-600')
+        item.classList.add('bg-off-primary')
     })  
 })
 

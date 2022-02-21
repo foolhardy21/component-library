@@ -1,25 +1,15 @@
-.list {
-    width: 15rem;
-    background: var(--c-white);
+.list-s {
+    width: 10rem;
 }
 
-.stacked-list {
-    width: 20rem; 
-    background: var(--c-white);
+.list-md {
+    width: 20rem;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
+.list-lg {
+    width: 40rem;
 }
 
-.list-menu-item:hover {
-    cursor: pointer;
-    background: var(--c-hovergray);
-}
-
-.list-menu-item-active {
-    cursor: pointer;
-    color: var(--c-blue);
-    background: var(--c-lightblue);
+.list-xlg {
+    width: 100%;
 }

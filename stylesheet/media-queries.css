@@ -14,7 +14,7 @@
         letter-spacing: 0.05rem;
     }
     
-    .card-icon, .nav-icon, .rating-icon {
+    .icon-primary, .icon-secondary {
         font-size: 140%;
     }
   

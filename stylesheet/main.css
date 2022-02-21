@@ -1,11 +1,10 @@
 @import './reset.css';
 @import './colors.css';
+
 @import './utils/text-utils.css';
-
 @import './utils/border-utils.css';
-@import './utils/spacing-utils.css';
-
 @import './utils/icon-utils.css';
+
 @import './components/button.css';
 @import './components/alert.css';
 @import './components/badge.css';
@@ -21,5 +20,6 @@
 
 @import './utils/pos-utils.css';
 @import './utils/display-utils.css';
+@import './utils/spacing-utils.css';
 
 @import './media-queries.css';
