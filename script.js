@@ -37,18 +37,18 @@ listItems.forEach((item) => {
 
 
 openDialogBtn.addEventListener('click', () => {
-    modalContainer.classList.remove('no-display')
+    modalContainer.classList.remove('dis-hidden')
     modalContainer.classList.add('pos-fixed')
-    modalContainer.classList.add('top-left-0')
-    modalContainer.classList.add('z-1')
+    modalContainer.classList.add('tl-0')
+    modalContainer.classList.add('z-5')
 })
 
 dialogActionBtn.forEach(actionBtn => {
     actionBtn.addEventListener('click', () => {
-        modalContainer.classList.add('no-display')
+        modalContainer.classList.add('dis-hidden')
         modalContainer.classList.remove('pos-fixed')
-        modalContainer.classList.remove('top-left-0')
-        modalContainer.classList.remove('z-1')
+        modalContainer.classList.remove('tl-0')
+        modalContainer.classList.remove('z-5')
     })
 })
 
