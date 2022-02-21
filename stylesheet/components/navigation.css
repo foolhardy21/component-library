@@ -1,33 +1,13 @@
-.nav {
-    background: var(--c-blue);
-    display: grid;
-    align-items: center;
+/* nav sizes */
+
+.nav-s {
+    width: 30rem;
 }
 
-.nav-grid-cols {
-    grid-template-areas: "menu heading heading ... ... icons";
+.nav-md {
+    width: 50rem;
 }
 
-.nav-grid-cols-lg {
-    grid-template-areas: 
-    "menu ... ... ... ... icons"
-    "... heading heading ... ... ...";
-}
-
-.nav-menu {
-    grid-area: menu;
-}
-
-.nav-heading {
-    grid-area: heading;
-}
-
-.nav-icons-wrapper {
-    grid-area: icons;
-    justify-self: end;
-}
-
-.nav-icon:hover {
-    color: var(--c-lightgray);
-    cursor: pointer;
+.nav-lg {
+    width: 70rem;
 }
