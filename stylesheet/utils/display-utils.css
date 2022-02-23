@@ -35,6 +35,10 @@
     justify-content: space-between;
 }
 
+.flx-maj-even {
+    justify-content: space-evenly;
+}
+
 .flx-maj-start {
     justify-content: flex-start;
 }
@@ -65,20 +69,16 @@
 
 .grid-itm1 {
     grid-area: item1;
-    /* background: var(--c-lightblue); */
 }
 
 .grid-itm2 {
     grid-area: item2;
-    /* background: var(--c-blue); */
 }
 
 .grid-itm3 {
     grid-area: item3;
-    /* background: var(--c-gray); */
 }
 
 .grid-itm4 {
     grid-area: item4;
-    /* background: var(--c-darkgray); */
 }
