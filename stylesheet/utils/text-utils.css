@@ -79,3 +79,7 @@
 .txt-900 {
     font-weight: 900;
 }
+
+.txt-cut {
+    text-decoration: line-through;
+}
