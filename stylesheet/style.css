@@ -1,9 +1,7 @@
 @import './reset.css';
 @import './colors.css';
 
-@import './utils/text-utils.css';
-@import './utils/border-utils.css';
-@import './utils/icon-utils.css';
+/* component stylesheets */
 
 @import './components/button.css';
 @import './components/alert.css';
@@ -18,6 +16,11 @@
 @import './components/navigation.css';
 @import './components/modal.css';
 
+/* utilities stylesheets */
+
+@import './utils/text-utils.css';
+@import './utils/border-utils.css';
+@import './utils/icon-utils.css';
 @import './utils/pos-utils.css';
 @import './utils/display-utils.css';
 @import './utils/spacing-utils.css';

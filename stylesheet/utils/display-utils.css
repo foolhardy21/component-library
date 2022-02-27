@@ -2,6 +2,8 @@
     display: inline-block;
 }
 
+/* flex display */
+
 .flx {
     display: flex;
 }
@@ -47,9 +49,8 @@
     justify-content: flex-end;
 }
 
-.dis-hidden {
-    display: none;
-}
+
+/* grid display */
 
 .grid {
     display: grid;
@@ -81,4 +82,11 @@
 
 .grid-itm4 {
     grid-area: item4;
+}
+
+
+/* no display */
+
+.dis-hidden {
+    display: none;
 }

@@ -42,6 +42,7 @@
     text-transform: capitalize;
 } 
 
+
 /* font weights */
 
 .txt-100 {
@@ -79,6 +80,8 @@
 .txt-900 {
     font-weight: 900;
 }
+
+/* text decoration */
 
 .txt-cut {
     text-decoration: line-through;

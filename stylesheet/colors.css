@@ -13,6 +13,8 @@
 
 /* colors for text  */
 
+/* primary text is dark and secondary text is light */
+
 .txt-primary {
     color: var(--clr-secondary);
 }
@@ -47,6 +49,8 @@
 
 
 /* colors for backgrounds  */
+
+/* primary background is light and secondary background is dark */
 
 .bg-primary {
     background: var(--clr-primary);

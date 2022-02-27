@@ -2,6 +2,7 @@
     border-style: solid;
 }
 
+
 /* border radius small */
 
 .brd-s {
@@ -23,6 +24,7 @@
 .brd-br-s {
     border-bottom-right-radius: 5px;
 }
+
 
 /* border radius medium */
 
@@ -46,6 +48,7 @@
     border-bottom-right-radius: 10px;
 }
 
+
 /* border radius large */
 
 .brd-lg {
@@ -68,13 +71,17 @@
     border-bottom-right-radius: 15px;
 }
 
+
 /* border radius circle */
 
 .brd-full {
     border-radius: 50%;
 }
 
+
 /* border colors */
+
+/* primary border is dark and secondary is light */
 
 .b-primary {
     border-color: var(--clr-secondary);

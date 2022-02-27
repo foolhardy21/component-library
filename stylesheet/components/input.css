@@ -27,6 +27,8 @@
     border-color: var(--clr-secondary);
 }
 
+/* input validation error class */
+
 .input-err {
     border-bottom-style: solid;
     border-bottom-width: 0.19rem;

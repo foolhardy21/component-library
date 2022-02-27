@@ -2,9 +2,13 @@
     width: 100%;
 }
 
+/* toast position */
+
 .toast-pos {
     bottom: 1rem;
 }
+
+/* toast sizes */
 
 .toast-s {
     width: 20rem;

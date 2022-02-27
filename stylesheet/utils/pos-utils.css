@@ -1,3 +1,5 @@
+/* types of position */
+
 .pos-relative {
     position: relative;
 }
@@ -13,6 +15,9 @@
 .pos-sticky {
     position: sticky;
 }
+
+
+/* position coordinates */
 
 .t-0 {
     top: 0;
@@ -43,6 +48,11 @@
     right: 1%;
 }
 
+.br-5 {
+    bottom: 5%;
+    right: 5%;
+}
+
 .bl-60 {
     bottom: 60%;
     left: 60%;
@@ -58,10 +68,8 @@
     left: 100%;
 }
 
-.br-5 {
-    bottom: 5%;
-    right: 5%;
-}
+
+/* z indices */
 
 .z-1 {
     z-index: 1;   
@@ -69,4 +77,8 @@
 
 .z-5 {
     z-index: 5;   
+}
+
+.z-index {
+    z-index: 10;
 }
