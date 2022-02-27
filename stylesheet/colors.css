@@ -23,15 +23,15 @@
 }
 
 .txt-secondary {
-    color: var(--clr-primary)
+    color: var(--clr-primary);
 }
 
 .txt-off-primary {
-    color: var(--clr-off-secondary)
+    color: var(--clr-off-secondary);
 }
 
 .txt-off-secondary {
-    color: var(--clr-off-primary)
+    color: var(--clr-off-primary);
 }
 
 .txt-accent {
@@ -60,11 +60,11 @@
 }
 
 .bg-off-primary {
-    background: var(--clr-off-primary)
+    background: var(--clr-off-primary);
 }
 
 .bg-off-secondary {
-    background: var(--clr-off-secondary)
+    background: var(--clr-off-secondary);
 }
 
 .bg-secondary {
