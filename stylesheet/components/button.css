@@ -29,8 +29,8 @@
 
 .btn-outlined:hover {
     cursor: pointer;
-    color: var(--clr-off-secondary);
-    border-color: var(--clr-off-secondary);
+    /* color: var(--clr-off-secondary);
+    border-color: var(--clr-off-secondary); */
 }
 
 /* button full width */
