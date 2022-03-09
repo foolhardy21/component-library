@@ -12,11 +12,11 @@ starIcons.forEach(starIcon => {
     starIcon.addEventListener('click', (e) => {
         const maxRating = e.target.dataset.value
         starIcons.forEach(star => {
-            if(star.dataset.value <= maxRating) {
-                star.classList.add('txt-warn')  
+            if (star.dataset.value <= maxRating) {
+                star.classList.add('txt-warn')
             } else {
                 star.classList.remove('txt-warn')
-                star.classList.add('txt-off-secondary')  
+                star.classList.add('txt-off-secondary')
             }
         })
     })
@@ -29,11 +29,11 @@ listItems.forEach((item) => {
     item.addEventListener('click', () => {
         listItems.forEach(item2 => {
             item2.classList.remove('txt-600')
-            item2.classList.remove('bg-off-primary')    
+            item2.classList.remove('bg-off-primary')
         })
         item.classList.add('txt-600')
         item.classList.add('bg-off-primary')
-    })  
+    })
 })
 
 
@@ -54,10 +54,9 @@ dialogActionBtn.forEach(actionBtn => {
 })
 
 formSubmit.addEventListener('click', () => {
-    formInput.value= ''
+    formInput.value = ''
     formInput.classList.add('input-err')
     setTimeout(() => {
         formInput.classList.remove('input-err')
-    },3000)
+    }, 3000)
 })
-
