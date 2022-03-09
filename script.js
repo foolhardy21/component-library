@@ -6,7 +6,18 @@ const openDialogBtn = document.querySelector('.open-modal')
 const modalDiv = document.querySelector('.modal')
 const modalContainer = document.querySelector('.modal-container')
 const dialogActionBtn = document.querySelectorAll('.dialog-action-btn')
+const hamBtn = document.querySelector('#btn-ham')
+const navSmall = document.querySelector('#nav-small')
+const smallNavCloseBtn = document.querySelector('#btn-close-small')
 
+
+hamBtn.addEventListener('click', () => {
+    navSmall.style.display = 'flex'
+})
+
+smallNavCloseBtn.addEventListener('click', () => {
+    navSmall.style.display = 'none'
+})
 
 starIcons.forEach(starIcon => {
     starIcon.addEventListener('click', (e) => {

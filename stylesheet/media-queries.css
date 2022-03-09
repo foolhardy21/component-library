@@ -47,4 +47,12 @@
         "item3"
         "item4";
     }
+
+    #btn-ham {
+        display: flex;
+    }
+    #nav-big {
+        display: none;
+    }
+
 }
