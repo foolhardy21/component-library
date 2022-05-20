@@ -1,0 +1,31 @@
+/* image fit  */
+
+.img-fit-cover {
+    object-fit: cover;
+}
+
+.img-fit-contain {
+    object-fit: contain;
+}
+
+/* image dimensions */
+
+.img-xs {
+    width: 8rem;
+}
+
+.img-s {
+    width: 15rem;
+}
+
+.img-md {
+    width: 20rem;
+}
+
+.img-lg {
+    width: 25rem;
+}
+
+.img-xlg {
+    width: 30rem;
+}

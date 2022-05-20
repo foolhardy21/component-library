@@ -1,56 +1,73 @@
 const formSubmit = document.querySelector('#submit-btn')
 const formInput = document.querySelector('#input')
-const drawerItems = document.querySelectorAll('.list-menu-item')
+const listItems = document.querySelectorAll('.list-itm')
 const starIcons = document.querySelectorAll('#star-icon')
+const openDialogBtn = document.querySelector('.open-modal')
+const modalDiv = document.querySelector('.modal')
+const modalContainer = document.querySelector('.modal-container')
+const dialogActionBtn = document.querySelectorAll('.dialog-action-btn')
+const hamBtn = document.querySelector('#btn-ham')
+const navSmall = document.querySelector('#nav-small')
+const smallNavCloseBtn = document.querySelector('#btn-close-small')
+
+
+hamBtn.addEventListener('click', () => {
+    navSmall.style.display = 'flex'
+})
+
+smallNavCloseBtn.addEventListener('click', () => {
+    navSmall.style.display = 'none'
+})
 
 starIcons.forEach(starIcon => {
     starIcon.addEventListener('click', (e) => {
         const maxRating = e.target.dataset.value
         starIcons.forEach(star => {
-            if(star.dataset.value <= maxRating) {
-                star.style.color = 'var(--c-yellow)' 
+            if (star.dataset.value <= maxRating) {
+                star.classList.add('txt-warn')
             } else {
-                star.style.color = 'var(--c-gray)' 
+                star.classList.remove('txt-warn')
+                star.classList.add('txt-off-secondary')
             }
         })
     })
 })
 
-drawerItems.forEach((item) => {
+listItems.forEach((item) => {
+    item.addEventListener('mouseover', () => {
+        item.style.cursor = 'pointer'
+    })
     item.addEventListener('click', () => {
-        drawerItems.forEach(item2 => {
-            item2.classList.remove('list-menu-item-active')    
+        listItems.forEach(item2 => {
+            item2.classList.remove('txt-600')
+            item2.classList.remove('bg-off-primary')
         })
-        item.classList.add('list-menu-item-active')
-    })  
+        item.classList.add('txt-600')
+        item.classList.add('bg-off-primary')
+    })
 })
 
-const openDialogBtn = document.querySelector('.open-modal')
-const modalDiv = document.querySelector('.modal')
-const modalContainer = document.querySelector('.modal-container')
-const dialogActionBtn = document.querySelectorAll('.dialog-action-btn')
 
 openDialogBtn.addEventListener('click', () => {
-    modalContainer.classList.remove('no-display')
+    modalContainer.classList.remove('dis-hidden')
     modalContainer.classList.add('pos-fixed')
-    modalContainer.classList.add('top-left-0')
-    modalContainer.classList.add('z-1')
+    modalContainer.classList.add('tl-0')
+    modalContainer.classList.add('z-5')
 })
 
 dialogActionBtn.forEach(actionBtn => {
     actionBtn.addEventListener('click', () => {
-        modalContainer.classList.add('no-display')
+        modalContainer.classList.add('dis-hidden')
         modalContainer.classList.remove('pos-fixed')
-        modalContainer.classList.remove('top-left-0')
-        modalContainer.classList.remove('z-1')
+        modalContainer.classList.remove('tl-0')
+        modalContainer.classList.remove('z-5')
     })
 })
 
 formSubmit.addEventListener('click', () => {
-    formInput.value= ''
-    formInput.classList.add('input-error')
+    formInput.value = ''
+    formInput.classList.add('input-err')
     setTimeout(() => {
-        formInput.classList.remove('input-error')
-    },2000)
+        formInput.classList.remove('input-err')
+    }, 3000)
 })
-

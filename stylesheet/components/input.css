@@ -1,0 +1,36 @@
+/* input style */
+.input {
+    outline: none;
+    border-style: none;
+}
+/* input width */
+
+.input-s {
+    width: 10rem;
+}
+
+.input-md {
+    width: 15rem;
+}
+
+.input-lg {
+    width: 20rem;
+}
+
+.input-xlg {
+    width: 30rem;
+}
+
+.input:focus {
+    border-bottom-style: solid;
+    border-bottom-width: 0.18rem;
+    border-color: var(--clr-secondary);
+}
+
+/* input validation error class */
+
+.input-err {
+    border-bottom-style: solid;
+    border-bottom-width: 0.19rem;
+    border-color: var(--clr-error);
+}

@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel='stylesheet' href='./style.css' />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='./stylesheet/style.css' />
     <title>Component Library</title>
 </head>
-<body>
+
+<body class="pd-md">
+
+
+    <!-- List component variants -->
 
     <h1>Lists</h1>
     <h3>simple</h3>
-    <div class='list border-radius-sm card-shadow-sm'>        
-        <ul class='c-darkgray'>
-            <li class='list-menu-item flex-horizontal-start flex-vertical-center border-radius-sm padding-lg list-menu-item-active'>
-                <span class="material-icons">
+    <div class='list-s bg-primary'>
+        <ul class='txt-primary'>
+            <li class='flx flx-min-center pd-xs list-itm'>
+                <span class="material-icons icon-primary mg-right-s">
                     inbox
                 </span>
-                <p class='margin-0 margin-left-md text-capital font-size-md letter-space-md'>
+                <p class='txt-cap txt-md'>
                     inbox
                 </p>
             </li>
-            <li class='list-menu-item flex-horizontal-start flex-vertical-center border-radius-sm padding-lg'>
-                <span class="material-icons">
+            <li class='flx flx-min-center pd-xs list-itm'>
+                <span class="material-icons icon-primary mg-right-s">
                     star
                 </span>
-                <p class='margin-0 margin-left-md text-capital font-size-md letter-space-md'>
+                <p class='txt-cap txt-md'>
                     star
                 </p>
             </li>
-            <li class='list-menu-item flex-horizontal-start flex-vertical-center border-radius-sm padding-lg'>
-                <span class="material-icons">
+            <li class='flx flx-min-center pd-xs list-itm'>
+                <span class="material-icons icon-primary mg-right-s">
                     send
                 </span>
-                <p class='margin-0 margin-left-md text-capital font-size-md letter-space-md'>
+                <p class='txt-cap txt-md'>
                     sent_mail
                 </p>
             </li>
-            <li class='list-menu-item flex-horizontal-start flex-vertical-center border-radius-sm padding-lg'>
-                <span class="material-icons">
+            <li class='flx flx-min-center pd-xs list-itm'>
+                <span class="material-icons icon-primary mg-right-s">
                     drafts
                 </span>
-                <p class='margin-0 margin-left-md text-capital font-size-md letter-space-md'>
+                <p class='txt-cap txt-md'>
                     drafts
                 </p>
             </li>
@@ -51,650 +55,627 @@
     </div><br />
 
     <h3>stacked for notifications</h3>
-    <div class='stacked-list border-radius-sm card-shadow-sm'>
-        <ul class='c-darkgray'>
-            <li class='list-menu-item border-radius-sm padding-lg flex-horizontal-stretch flex-vertical-center list-menu-item-active'>
-                <div class='flex-center'>
-                    <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm border-radius-circle' />
-                    <div class='flex-column'>
-                        <p class='margin-0 margin-left-md text-capital font-size-md letter-space-md'>
-                            Lioness
-                        </p>
-                        <p class='margin-0 margin-left-md text-capital font-size-sm letter-space-md text-dgray'>hey! pick up the phone</p>
+    <div class='list-md bg-primary'>
+        <ul class='txt-primary'>
+            <li class='list-itm pd-xs flx flx-maj-stretch flx-min-center'>
+                <div class='flx flx-min-center'>
+                    <img src='./assets/avatar-1.jpg' class='brd-full mg-right-md' />
+                    <div>
+                        <p class='txt-cap txt-md'>lioness</p>
+                        <p class='txt-cap txt-md'>hey! pick up the phone</p>
                     </div>
                 </div>
-                <span class='material-icons icon-close text-dgray'>
+                <span class='material-icons icon-primary'>
                     close
                 </span>
             </li>
-            <li class='list-menu-item border-radius-sm padding-lg flex-horizontal-stretch flex-vertical-center'>
-                <div class='flex-center'>
-                    <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm border-radius-circle' />
-                    <div class='flex-column'>
-                        <p class='margin-0 margin-left-md text-capital font-size-md letter-space-md'>
-                            Lioness
-                        </p>
-                        <p class='margin-0 margin-left-md text-capital font-size-sm letter-space-md text-dgray'>hey! pick up the phone</p>
+            <li class='list-itm pd-xs flx flx-maj-stretch flx-min-center'>
+                <div class='flx flx-min-center'>
+                    <img src='./assets/avatar-1.jpg' class='brd-full mg-right-md' />
+                    <div>
+                        <p class='txt-cap txt-md'>lioness</p>
+                        <p class='txt-cap txt-md'>hey! pick up the phone</p>
                     </div>
                 </div>
-                <span class='material-icons icon-close text-dgray'>
+                <span class='material-icons icon-primary'>
                     close
                 </span>
             </li>
-            <li class='list-menu-item border-radius-sm padding-lg flex-horizontal-stretch flex-vertical-center'>
-                <div class='flex-center'>
-                    <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm border-radius-circle' />
-                    <div class='flex-column'>
-                        <p class='margin-0 margin-left-md text-capital font-size-md letter-space-md'>
-                            Lioness
-                        </p>
-                        <p class='margin-0 margin-left-md text-capital font-size-sm letter-space-md text-dgray'>hey! pick up the phone</p>
+            <li class='list-itm pd-xs flx flx-maj-stretch flx-min-center'>
+                <div class='flx flx-min-center'>
+                    <img src='./assets/avatar-1.jpg' class='brd-full mg-right-md' />
+                    <div>
+                        <p class='txt-cap txt-md'>lioness</p>
+                        <p class='txt-cap txt-md'>hey! pick up the phone</p>
                     </div>
                 </div>
-                <span class='material-icons icon-close text-dgray'>
+                <span class='material-icons icon-primary'>
                     close
                 </span>
             </li>
-            <li class='list-menu-item border-radius-sm padding-lg flex-horizontal-stretch flex-vertical-center'>
-                <div class='flex-center'>
-                    <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm border-radius-circle' />
-                    <div class='flex-column'>
-                        <p class='margin-0 margin-left-md text-capital font-size-md letter-space-md'>
-                            Lioness
-                        </p>
-                        <p class='margin-0 margin-left-md text-capital font-size-sm letter-space-md text-dgray'>hey! pick up the phone</p>
+            <li class='list-itm pd-xs flx flx-maj-stretch flx-min-center'>
+                <div class='flx flx-min-center'>
+                    <img src='./assets/avatar-1.jpg' class='brd-full mg-right-md' />
+                    <div>
+                        <p class='txt-cap txt-md'>lioness</p>
+                        <p class='txt-cap txt-md'>hey! pick up the phone</p>
                     </div>
                 </div>
-                <span class='material-icons icon-close text-dgray'>
+                <span class='material-icons icon-primary'>
                     close
                 </span>
             </li>
         </ul>
     </div><br />
 
+
+    <!-- Rating component -->
+
+
     <h1>Rating</h1>
-    <div class='card-shadow-sm inline-block border-radius-sm padding-md c-gray'>
-        <span id='star-icon' class='material-icons rating-icon' data-value='1'>
+    <div class='dis-inblock pd-md'>
+        <span id='star-icon' class='material-icons txt-off-secondary' data-value='1'>
             star
         </span>
-        <span id='star-icon' class='material-icons rating-icon' data-value='2'>
+        <span id='star-icon' class='material-icons txt-off-secondary' data-value='2'>
             star
         </span>
-        <span id='star-icon' class='material-icons rating-icon' data-value='3'>
+        <span id='star-icon' class='material-icons txt-off-secondary' data-value='3'>
             star
         </span>
-        <span id='star-icon' class='material-icons rating-icon' data-value='4'>
+        <span id='star-icon' class='material-icons txt-off-secondary' data-value='4'>
             star
         </span>
-        <span id='star-icon' class='material-icons rating-icon' data-value='5'>
+        <span id='star-icon' class='material-icons txt-off-secondary' data-value='5'>
             star
         </span>
     </div>
-    
+
+
+    <!-- Navigation component variants -->
+
+
     <h1>Navigation</h1>
     <h3>simple nav</h3>
-    <nav class='nav padding-xxlg c-white nav-grid-cols'>
-        <span class='material-icons nav-menu nav-icon'>menu</span>
-        <div class='nav-heading text-bold text-uppercase letter-space-md'>Products</div>
-        <div class='nav-icons-wrapper'>
-            <span class='material-icons margin-right-md nav-icon'>download</span>
-            <span class='material-icons margin-right-md nav-icon'>print</span>
-            <span class='material-icons margin-right-md nav-icon'>bookmark</span>
+    <nav class='bg-primary txt-primary flx flx-maj-stretch flx-min-center'>
+        <div class="flx flx-min-center">
+            <p class='btn-txt txt-ucase pd-lg'>home</p>
+            <p class='btn-txt txt-ucase pd-lg'>products</p>
+            <p class='btn-txt txt-ucase pd-lg'>profile</p>
+            <p class='btn-txt txt-ucase pd-lg'>history</p>
+        </div>
+        <div class="flx flx-min-center">
+            <span class='material-icons pd-md icon-primary'>download</span>
+            <span class='material-icons pd-md icon-primary'>print</span>
+            <span class='material-icons pd-md icon-primary'>bookmark</span>
         </div>
     </nav><br />
-    <nav class='nav padding-xxlg c-white nav-grid-cols'>
-        <span class='material-icons nav-menu nav-icon'>menu</span>
-        <div class='nav-heading text-bold text-uppercase letter-space-md'>Products</div>
-        <div class='nav-icons-wrapper'>
-            <span class='material-icons margin-right-md nav-icon'>download</span>
+    <nav class='nav-md bg-off-primary txt-primary flx flx-maj-stretch flx-min-center'>
+        <div class="flx flx-min-center">
+            <p class='btn-txt txt-ucase pd-md'>home</p>
+            <p class='btn-txt txt-ucase pd-md'>products</p>
+            <p class='btn-txt txt-ucase pd-md'>profile</p>
+            <p class='btn-txt txt-ucase pd-md'>history</p>
+        </div>
+        <div class="flx flx-min-center">
+            <span class='material-icons pd-s icon-primary'>download</span>
+            <span class='material-icons pd-s icon-primary'>print</span>
+            <span class='material-icons pd-s icon-primary'>bookmark</span>
+        </div>
+    </nav><br />
+    <nav class='bg-secondary txt-secondary flx flx-maj-stretch flx-min-center'>
+        <div class="flx flx-min-center">
+            <p class='btn-solid txt-ucase pd-lg'>home</p>
+            <p class='btn-solid txt-ucase pd-lg'>products</p>
+            <p class='btn-solid txt-ucase pd-lg'>profile</p>
+            <p class='btn-solid txt-ucase pd-lg'>history</p>
+        </div>
+        <div>
+            <span class='material-icons pd-md icon-secondary'>download</span>
+            <span class='material-icons pd-md icon-secondary'>print</span>
+            <span class='material-icons pd-md icon-secondary'>bookmark</span>
         </div>
     </nav><br />
 
-    <h3>prominent nav</h3>
-    <nav class='nav padding-xxlg c-white nav-grid-cols-lg'>
-        <span class='material-icons nav-menu nav-icon'>menu</span>
-        <div class='nav-heading text-bold text-uppercase letter-space-md'>Products</div>
-        <div class='nav-icons-wrapper'>
-            <span class='material-icons margin-right-md nav-icon'>download</span>
-            <span class='material-icons margin-right-md nav-icon'>print</span>
-            <span class='material-icons margin-right-md nav-icon'>bookmark</span>
-        </div>
-    </nav><br />
+
+    <!-- Modal component variants -->
+
 
     <h1>Modal</h1>
     <button class='open-modal'>open modal</button>
-    <section class='flex-center modal-container no-display'>
-        <article class='modal padding-xxlg border-radius-sm'>
-            <h3 class='margin-0 text-bold font-size-md letter-space-md c-black text-capital'>dialog header</h3>
-            <p class='margin-0 font-size-sm letter-space-sm c-gray text-capital margin-top-sm margin-left-sm'>dialog body text</p>
-            <footer class='flex-horizontal-end'>
-                <button class='btn-filled no-border c-white padding-lg text-capital margin-right-md dialog-action-btn border-radius-sm'>action 1</button>
-                <button class='btn-text c-blue no-border container-transparent padding-lg text-capital dialog-action-btn border-radius-sm'>action 2</button>
+    <section class='flx flx-center modal-container dis-hidden'>
+        <article class='modal-md txt-primary pd-lg bg-primary'>
+            <h3 class='txt-lg txt-cap'>dialog header</h3>
+            <p class='txt-md txt-cap'>dialog body text</p>
+            <footer class='mg-top-md flx flx-maj-end'>
+                <button class='btn-txt txt-cap txt-ucase mg-right-s dialog-action-btn'>action 1</button>
+                <button class='btn-solid bg-secondary txt-secondary txt-ucase pd-xs dialog-action-btn'>action 2</button>
             </footer>
         </article>
     </section>
-        
+
+
+    <!-- Button component variants -->
+
+
     <h1>Buttons</h1>
-    <h3>text buttons</h3>
-    <button class='btn-text c-blue no-border container-transparent font-size-sm padding-md text-uppercase text-bold letter-space-sm border-radius-sm'>
+    <h3>text button</h3>
+    <button class='btn-txt txt-primary txt-md pd-xs txt-ucase'>
         text
     </button>
-    <button class='btn-text c-blue no-border container-transparent font-size-md padding-lg text-uppercase text-bold letter-space-sm border-radius-sm'>
-        text
-    </button>
-    <button class='btn-text c-blue no-border container-transparent font-size-lg padding-xlg text-uppercase text-bold letter-space-md border-radius-sm'>
-        text
-    </button>
-    
-    <h3>contained buttons</h3>
-    <button class='btn-filled c-white no-border font-size-sm padding-md text-uppercase text-bold letter-space-sm border-radius-sm'>filled</button>
-    <button class='btn-filled c-white no-border font-size-md padding-lg text-uppercase text-bold letter-space-sm border-radius-sm'>filled</button>
-    <button class='btn-filled c-white no-border font-size-lg padding-xlg text-uppercase text-bold letter-space-md border-radius-sm'>filled</button>
-    
-    <h3>outlined buttons</h3>
-    <button class='btn-outlined c-blue border-blue container-transparent border-thin text-uppercase text-bold font-size-sm padding-md letter-space-sm border-radius-sm'>outlined</button>
-    <button class='btn-outlined c-blue border-blue container-transparent border-thin text-uppercase text-bold font-size-md padding-lg letter-space-sm border-radius-sm'>outlined</button>
-    <button class='btn-outlined c-blue border-blue container-transparent border-thin text-uppercase text-bold font-size-lg padding-xlg letter-space-md border-radius-sm'>outlined</button>
-    
-    <h3>icons with text buttons</h3>
-    <button class='btn-filled c-white no-border flex-center text-uppercase text-bold padding-md font-size-sm letter-space-sm border-radius-sm'>
+
+    <h3>solid button</h3>
+    <button class='btn-solid txt-md pd-xs txt-ucase bg-secondary txt-secondary'>solid</button>
+
+    <h3>outlined button</h3>
+    <button class='btn-outlined b-solid b-secondary txt-ucase txt-md pd-xs'>outlined</button>
+
+    <h3>icons with text as solid button</h3>
+    <button class='btn-solid txt-secondary bg-secondary flx flx-center txt-ucase pd-xs txt-md'>
         <span class='material-icons'>
             delete
         </span>
         delete
     </button>
 
-    <h3>icons with contained buttons</h3>
-    <button class='btn-outlined c-blue border-blue container-transparent border-thin flex-center text-uppercase text-bold padding-md font-size-sm letter-space-sm border-radius-sm'>
-        <span class='material-icons'>
-            delete
-        </span>
-        delete
-    </button>
-
-    <h3>icon buttons</h3>
-    <button class='btn-text c-blue container-transparent no-border padding-lg flex-center border-radius-circle'>
+    <h3>icon button</h3>
+    <button class='btn-solid txt-secondary bg-secondary pd-xs flx flx-center brd-full'>
         <span class='material-icons'>alarm</span>
     </button>
-    <button class='btn-text c-blue container-transparent no-border padding-lg flex-center pos-fixed bottom-right-5 border-radius-circle'>
-        <span class='material-icons'>download</span>
-    </button>
-    <h5>float action button in bottom right corner</h5>
+
+
+    <!-- Alert component variants -->
+
 
     <h1>Alerts</h1>
     <h3>basic error</h3>
-    <div class='flex-horizontal-stretch padding-md font-size-sm letter-space-sm alert-size-md alert-basic c-white border-radius-sm'>
-        <div class='flex-vertical-center'>
-            <span class="material-icons c-red">
+    <div class='flx flx-maj-stretch pd-xs txt-md alert-size-md txt-secondary bg-secondary'>
+        <div class='flx flx-min-center'>
+            <span class="material-icons txt-err mg-right-s">
                 error
             </span>
-            This is an error alert — check it out!
+            <p>
+                This is an error alert — check it out!
+            </p>
         </div>
-        <span class='material-icons icon-close'>close</span>
+        <span class='material-icons icon-secondary'>close</span>
     </div>
 
     <h3>basic warning</h3>
-    <div class='flex-horizontal-stretch padding-md font-size-sm letter-space-sm alert-size-md alert-basic c-white border-radius-sm'>
-        <div class='flex-vertical-center'>
-            <span class="material-icons c-yellow">
+    <div class='flx flx-maj-stretch pd-xs txt-md alert-size-md txt-secondary bg-secondary'>
+        <div class='flx flx-min-center'>
+            <span class="material-icons txt-warn mg-right-s">
                 warning
             </span>
-            This is a warning alert — check it out!
+            <p>
+                This is a warning alert — check it out!
+            </p>
         </div>
-        <span class='material-icons icon-close'>close</span>
+        <span class='material-icons icon-secondary'>close</span>
     </div>
 
     <h3>basic success</h3>
-    <div class='flex-horizontal-stretch padding-md font-size-sm letter-space-sm alert-size-md alert-basic c-white border-radius-sm'>
-        <div class='flex-vertical-center'>
-            <span class="material-icons c-green">
+    <div class='flx flx-maj-stretch pd-xs txt-md alert-size-md txt-secondary bg-secondary'>
+        <div class='flx flx-min-center'>
+            <span class="material-icons txt-success  mg-right-s">
                 check_circle
             </span>
-            This is a success alert — check it out!
+            <p>
+                This is a success alert — check it out!
+            </p>
         </div>
-        <span class='material-icons icon-close'>close</span>
+        <span class='material-icons icon-secondary'>close</span>
     </div>
-    
-    <h3>outlined error</h3>
-    <div class='flex-horizontal-stretch padding-md font-size-sm letter-space-sm alert-size-md border-solid container-transparent c-red alert-error-outlined border-radius-sm'>
-        <div class='flex-vertical-center'>
-            <span class="material-icons">
+
+    <h3>solid error</h3>
+    <div class='flx flx-maj-stretch pd-xs txt-md alert-size-md bg-err txt-primary'>
+        <div class='flx flx-min-center'>
+            <span class="material-icons mg-right-s">
                 error
             </span>
-            This is an error alert — check it out!
+            <p class="txt-md txt-600">
+                This is an error alert — check it out!
+            </p>
         </div>
-        <span class='material-icons icon-close'>close</span>
+        <span class='material-icons icon-primary'>close</span>
     </div>
 
-    <h3>outlined warning</h3>
-    <div class='flex-horizontal-stretch padding-md font-size-sm letter-space-sm alert-size-md border-solid container-transparent c-yellow alert-warning-outlined border-radius-sm'>
-        <div class='flex-vertical-center'>
-            <span class="material-icons">
+    <h3>solid warning</h3>
+    <div class='flx flx-maj-stretch pd-xs txt-md alert-size-md bg-warn txt-primary'>
+        <div class='flx flx-min-center'>
+            <span class="material-icons mg-right-s">
                 warning
             </span>
-            This is a warning alert — check it out!
+            <p class="txt-md txt-600">
+                This is an warning alert — check it out!
+            </p>
         </div>
-        <span class='material-icons icon-close'>close</span>
+        <span class='material-icons icon-primary'>close</span>
     </div>
 
-    <h3>outlined success</h3>
-    <div class='flex-horizontal-stretch padding-md font-size-sm letter-space-sm alert-size-md border-solid container-transparent c-green alert-success-outlined border-radius-sm'>
-        <div class='flex-vertical-center'>
-            <span class="material-icons">
+    <h3>solid success</h3>
+    <div class='flx flx-maj-stretch pd-xs txt-md alert-size-md bg-success txt-primary'>
+        <div class='flx flx-min-center'>
+            <span class="material-icons mg-right-s">
                 check_circle
             </span>
-            This is a success alert — check it out!
+            <p class="txt-md txt-600">
+                This is an success alert — check it out!
+            </p>
         </div>
-        <span class='material-icons icon-close'>close</span>
-    </div>
-    
-    <h3>contained error</h3>
-    <div class='flex-horizontal-stretch padding-md font-size-sm letter-space-sm alert-size-md alert-error-filled c-white border-radius-sm'>
-        <div class='flex-vertical-center'>
-            <span class="material-icons">
-                error
-            </span>
-            This is an error alert — check it out!
-        </div>
-        <span class='material-icons icon-close'>close</span>
+        <span class='material-icons icon-primary'>close</span>
     </div>
 
-    <h3>contained warning</h3>
-    <div class='flex-horizontal-stretch padding-md font-size-sm letter-space-sm alert-size-md alert-warning-filled c-white border-radius-sm'>
-        <div class='flex-vertical-center'>
-            <span class="material-icons">
-                warning
-            </span>
-            This is a warning alert — check it out!
-        </div>
-        <span class='material-icons icon-close'>close</span>
-    </div>
 
-    <h3>contained success</h3>
-    <div class='flex-horizontal-stretch padding-md font-size-sm letter-space-sm alert-size-md alert-success-filled c-white border-radius-sm'>
-        <div class='flex-vertical-center'>
-            <span class="material-icons">
-                check_circle
-            </span>
-            This is a success alert — check it out!
-        </div>
-        <span class='material-icons icon-close'>close</span>
-    </div>
+    <!-- Badge component variants -->
+
 
     <h1>Badges</h1>
-    <h3>notification badges small</h3>
-    <div class='badge-size-sm badge-green border-radius-circle'></div>
-    <div class='badge-size-sm badge-red border-radius-circle'></div>
-    <div class='badge-size-sm badge-yellow border-radius-circle'></div>
-    <div class='badge-size-sm badge-blue border-radius-circle'></div>
+    <h3>notification badges extra small</h3>
+    <div class='badge-size-xs bg-success brd-full'></div>
+    <div class='badge-size-xs bg-err brd-full'></div>
+    <div class='badge-size-xs bg-warn brd-full'></div>
 
-    <h3>notification badges medium</h3>
-    <div class='badge-size-md badge-green border-radius-circle'></div>
-    <div class='badge-size-md badge-red border-radius-circle'></div>
-    <div class='badge-size-md badge-yellow border-radius-circle'></div>
-    <div class='badge-size-md badge-blue border-radius-circle'></div>
-    
+    <h3>notification badges small</h3>
+    <div class='badge-size-s bg-success brd-full'></div>
+    <div class='badge-size-s bg-err brd-full'></div>
+    <div class='badge-size-s bg-warn brd-full'></div>
+
     <h3>text only badges</h3>
-    <div class='badge-size-sm badge-text-sm flex-center padding-sm border-radius-circle c-white badge-blue'>
+    <div class='badge-size-md txt-md flx flx-center brd-full txt-secondary bg-secondary'>
         4
     </div>
-    <div class='badge-size-lg text-uppercase badge-text-sm flex-center padding-md border-radius-sm badge-yellow text-bold letter-space-md'>
+    <div class='badge-size-lg txt-ucase txt-s txt-600 flx flx-center brd-s bg-warn'>
+        offer
+    </div>
+    <div class='badge-size-xxlg txt-ucase txt-md txt-600 flx flx-center brd-s bg-warn'>
         offer
     </div>
 
-    <h3>badges on icon bottom right</h3>
-    <div class='inline-block pos-relative'>
+    <h3>text badge on icon</h3>
+    <div class='dis-inblock pos-relative'>
         <span class='material-icons'>account_balance</span>
-        <div class='badge-size-sm badge-text-sm flex-center border-radius-circle badge-blue c-white pos-absolute top-left-60'>1</div>
-    </div>
-    <div class='inline-block pos-relative'>
-        <span class='material-icons'>account_balance</span>
-        <div class='badge-size-sm padding-sm badge-text-sm flex-center border-radius-circle badge-blue c-white pos-absolute top-left-60'>1</div>
-    </div>
-    
-    <h3>badges on icon top right</h3>
-    <div class='inline-block pos-relative'>
-        <span class='material-icons'>account_balance</span>
-        <div class='badge-size-sm badge-text-sm flex-center border-radius-circle badge-blue c-white pos-absolute bottom-left-60'>1</div>
-    </div>
-    <div class='inline-block pos-relative'>
-        <span class='material-icons'>account_balance</span>
-        <div class='badge-size-sm padding-sm badge-text-sm flex-center border-radius-circle badge-blue c-white pos-absolute bottom-left-60'>1</div>
+        <div class='badge-size-s txt-s flx flx-center brd-full bg-secondary txt-secondary pos-absolute tl-60'>1</div>
     </div>
 
     <h3>notification badges on icon</h3>
-    <div class='inline-block pos-relative'>
+    <div class='dis-inblock pos-relative'>
         <span class='material-icons'>account_balance</span>
-        <div class='badge-size-sm border-radius-circle badge-red pos-absolute top-left-60'></div>
-    </div>
-    <div class='inline-block pos-relative'>
-        <span class='material-icons'>account_balance</span>
-        <div class='badge-size-sm border-radius-circle badge-green pos-absolute top-left-60'></div>
-    </div>
-    
-    <h1>Avatars</h1>
-    <h3>different sizes</h3>
-    <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm border-radius-circle' />
-    <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-md border-radius-circle' />
-    <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-lg border-radius-circle'>
-    <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-xlg border-radius-circle'>
-    
-    <h3>avatar group</h3>
-    <div class='inline-block'>
-        <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm avatar-border-blue border-thin border-radius-circle' />
-        <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm avatar-overlap avatar-border-blue border-thin border-radius-circle' />
-        <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm avatar-overlap avatar-border-blue border-thin border-radius-circle' />
-        <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm avatar-overlap avatar-border-blue border-thin border-radius-circle' />    
-    </div>
-    
-    <h3>avatars with badge</h3>
-    <div class='inline-block pos-relative'>
-        <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm border-radius-circle' />
-        <div class='badge-green border-radius-circle badge-size-sm pos-absolute top-left-70'></div>
+        <div class='badge-size-s flx flx-center brd-full bg-success pos-absolute tl-60'></div>
     </div>
 
-    <div class='inline-block pos-relative'>
-        <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm border-radius-circle' />
-        <div class='badge-yellow border-radius-circle badge-size-sm pos-absolute top-left-70'></div>
+
+    <!-- Avatar component variants -->
+
+
+    <h1>Avatars</h1>
+    <h3>different sizes</h3>
+    <img src='./assets/avatar-1.jpg' class='brd-full img-fit-cover' />
+    <img src='./assets/avatar-2.jpg' class='brd-full img-fit-cover' />
+    <img src='./assets/avatar-3.jpg' class='brd-full img-fit-cover' />
+
+    <h3>avatar group</h3>
+    <div class='dis-inline'>
+        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-secondary img-fit-cover' />
+        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-secondary img-fit-cover avt-overlap-xlg' />
+        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-secondary img-fit-cover avt-overlap-xlg' />
+        <img src='./assets/avatar-2.jpg' class='brd-full b-solid b-secondary img-fit-cover avt-overlap-xlg' />
     </div>
-    
-    <div class='inline-block pos-relative'>
-        <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm border-radius-circle' />
-        <div class='badge-red border-radius-circle badge-size-sm pos-absolute top-left-70'></div>
-    </div><br/>
-    
-    <div class='inline-block pos-relative'>
-        <img src='https://picsum.photos/id/1074/500/500' class='avatar avatar-size-sm border-radius-circle' />
-        <div class='badge-blue border-radius-circle badge-size-md pos-absolute top-left-70'></div>
+
+    <h3>avatar with badge</h3>
+    <div class='dis-inblock pos-relative'>
+        <img src='./assets/avatar-2.jpg' class='brd-full img-fit-cover' />
+        <div class='bg-success brd-full badge-size-s pos-absolute br-5'></div>
     </div>
+
+
+    <!-- Images component variants -->
+
 
     <h1>Images</h1>
     <p>densty switching at 900px</p>
-    <img srcset='https://picsum.photos/id/200/700/700 900w,
-    https://picsum.photos/id/200/300/300 300w' sizes="(min-width: 900px) 900px,
-    300px" alt='Hairy cow' class='img-cover' />
+    <img srcset='./assets/img.jpg 500w,
+    ./assets/img2.jpg 200w' sizes="(min-width: 900px) 500px,
+    200px" alt='Hairy cow' class='img-fit-cover' />
     <p>responsive length</p>
-    <img src='https://picsum.photos/id/200/500/500' alt='Hairy cow' class='img-lg img-cover' />
+    <img src='./assets/img.jpg' alt='Hairy cow' class='img-md img-fit-cover' />
     <p>round image</p>
-    <img src='https://picsum.photos/500/500' alt='Random Image' class='img-sm border-radius-circle img-cover' />
+    <img src='./assets/img.jpg' alt='Hairy cow' class='img-s brd-full img-fit-cover' />
     <br />
+
+
+    <!-- Input component variants -->
+
 
     <h1>Inputs</h1>
     <h4>normal input</h4>
-    <input type='text' class='input-md padding-xxlg no-border border-btm-thin no-outline' placeholder="Enter here..." /><br/><br/>
+    <input type='text' class='input input-md pd-xs' placeholder="Enter here..." /><br /><br />
 
     <h4>error on button click</h4>
-    <input id='input' type='text' class='input-md padding-xxlg no-border border-btm-thin no-outline' placeholder="Enter here..."/>
-    <button id='submit-btn' class='btn-text container-transparent c-blue no-border padding-md'>submit</button>
-        
+    <input id='input' type='text' class='input input-md pd-xs' placeholder="Enter here..." />
+    <button id='submit-btn' class='btn-solid txt-secondary bg-secondary pd-xs'>submit</button>
+
+
+    <!-- Card component variants -->
+
+
     <h1>Cards</h1>
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
+    <h3>text only card</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-secondary">
             close
         </span>
-        <main class='border-top-radius-sm'>
-            <header class='padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 margin-top-sm letter-space-sm font-capital c-black font-size-sm'>by Kurt Wagner</p>
-            </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
+        <header class='pd-md'>
+            <p class='txt-lg txt-600 txt-cap txt-primary'>our changing planet</p>
+            <p class='txt-cap txt-primary txt-md'>by Kurt Wagner</p>
+        </header>
+        <main>
+            <p class='card-txtw-md txt-off-primary txt-md pd-xs'>Visit ten places on our planet that are undergoing the
+                biggest changes today.
             </p>
         </main>
-            <footer class='margin-0 margin-horizontal-xxlg flex-horizontal-stretch'>
-                <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
-                    </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
-                </button>
-            </div>
-            <div class='flex-vertical-center c-darkgray'>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    favorite_border
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    share
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    more_vert
-                </span>
-            </div>
-        </footer>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='border-top-radius-sm'>
-            <img src='https://picsum.photos/400/300' class='card-image border-top-radius-sm' />
-            <header class='padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 margin-top-sm letter-space-sm font-capital c-black font-size-sm'>by Kurt Wagner</p>
-            </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
-            </p>
-        </main>
-            <footer class='margin-0 margin-horizontal-xxlg flex-horizontal-stretch'>
-                <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
-                    </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
-                </button>
-            </div>
-            <div class='flex-vertical-center c-darkgray'>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    favorite_border
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    share
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    more_vert
-                </span>
-            </div>
-        </footer>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='border-top-radius-sm'>
-            <img src='https://picsum.photos/300/200' class='card-image border-top-radius-sm' />
-            <header class='padding-xxlg pos-absolute top-0'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black'>by Kurt Wagner</p>
-            </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
-            </p>
-        </main>
-            <footer class='margin-0 margin-horizontal-xxlg flex-horizontal-stretch'>
-                <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
-                    </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
-                </button>
-            </div>
-            <div class='flex-vertical-center c-darkgray'>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    favorite_border
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    share
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    more_vert
-                </span>
-            </div>
-        </footer>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='flex-column border-top-radius-sm'>
-            <img src='https://picsum.photos/500/400' class='card-image' />
-            <header class='flex-order-start padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black'>by Kurt Wagner</p>
-            </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
-            </p>
-        </main>
-            <footer class='margin-0 margin-horizontal-xxlg flex-horizontal-stretch'>
-                <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
-                    </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
-                </button>
-            </div>
-            <div class='flex-vertical-center c-darkgray'>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    favorite_border
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    share
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    more_vert
-                </span>
-            </div>
-        </footer>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='flex-row border-top-radius-sm'>
-            <img src='https://picsum.photos/200/100' class='card-image border-top-left-radius-sm card-horizontal-image' />
-            <header class='padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black'>by Kurt Wagner</p>
-            </header>
-        </main>
-            <footer class='margin-0 margin-top-sm margin-horizontal-xxlg flex-horizontal-stretch'>
-                <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
-                    </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
-                </button>
-            </div>
-            <div class='flex-vertical-center c-darkgray'>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    favorite_border
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    share
-                </span>
-                <span class="material-icons margin-right-xxlg card-icon">
-                    more_vert
-                </span>
-            </div>
-        </footer>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='flex-row border-top-radius-sm'>
-            <img src='https://picsum.photos/200/100' class='card-image border-top-left-radius-sm card-horizontal-image' />
-            <div class='flex-grow-1'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black margin-horizontal-xxlg margin-top-lg'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black margin-horizontal-xxlg margin-top-sm'>by Kurt Wagner</p>
-                <button class='font-size-sm letter-space-sm btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md margin-top-md btn-footer'>read</button>
-            </div>
-        </main>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='border-top-radius-sm'>
-            <img src='https://picsum.photos/400/400' class='card-image border-top-radius-sm' />
-            <header class='padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black'>by Kurt Wagner</p>
-            </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
-            </p>
-        </main>
-            <footer class='margin-0 margin-top-sm margin-horizontal-xxlg flex-horizontal-start'>
-                <div>
-                    <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                        read
-                    </button>
-                <button class='font-size-sm letter-space-sm margin-right-md btn-text c-blue container-transparent no-border border-radius-sm text-uppercase padding-md'>
-                    bookmark
-                </button>
-            </div>
-        </footer>
-    </article><br />
-
-    <article class='card-wrapper card-shadow-sm pos-relative padding-bottom-sm border-radius-sm'>
-        <span class="material-icons pos-absolute top-right-1 icon-close">
-            close
-        </span>
-        <main class='border-top-radius-sm'>
-            <img src='https://picsum.photos/400/400' class='card-image border-top-radius-sm' />
-            <header class='padding-xxlg'>
-                <p class='margin-0 font-size-md text-capital text-bold letter-space-md c-black'>our changing planet</p>
-                <p class='margin-0 font-size-sm text-capital letter-space-sm margin-top-sm c-black'>by Kurt Wagner</p>
-            </header>
-            <p class='c-darkgray font-size-sm padding-xxlg margin-0 letter-space-md'>Visit ten places on our planet that are undergoing the biggest changes today.
-            </p>
-        </main>
-            <footer class='margin-0 margin-top-sm margin-horizontal-xxlg flex-horizontal-end c-darkgray'>
+        <footer class='pd-xs flx flx-maj-stretch'>
             <div>
-                <span class="material-icons margin-right-xxlg card-icon">
+                <button class='txt-md btn-solid bg-secondary txt-secondary txt-ucase pd-xs'>
+                    buy
+                </button>
+                <button class='txt-md btn-txt txt-primary txt-ucase pd-xs'>
+                    add to cart
+                </button>
+            </div>
+            <div class='flx flx-min-center'>
+                <span class="material-icons mg-right-xs icon-primary">
                     favorite_border
                 </span>
-                <span class="material-icons margin-right-xxlg card-icon">
+                <span class="material-icons mg-right-xs icon-primary">
                     share
                 </span>
-                <span class="material-icons margin-right-xxlg card-icon">
+                <span class="material-icons icon-primary">
                     more_vert
                 </span>
             </div>
         </footer>
     </article><br />
+
+    <h3>text with image card-small</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-primary">
+            close
+        </span>
+        <main>
+            <img src='./assets/card-img.jpg' class='img-fit-cover' />
+            <header class='pd-xs'>
+                <p class='txt-lg txt-500 txt-cap txt-primary'>our changing planet</p>
+                <p class='txt-cap txt-primary txt-md'>by Kurt Wagner</p>
+            </header>
+            <p class='card-txtw-s txt-off-primary txt-md pd-xs'>Visit ten places on our planet that are undergoing the
+                biggest changes today.
+            </p>
+        </main>
+        <footer class='flx flx-maj-stretch pd-xs'>
+            <div>
+                <button class='txt-md btn-solid txt-secondary bg-secondary txt-ucase pd-xs'>
+                    buy
+                </button>
+                <button class='txt-md btn-txt txt-primary txt-ucase pd-xs'>
+                    add to cart
+                </button>
+            </div>
+            <div class='flx flx-min-center'>
+                <span class="material-icons mg-right-xs icon-primary">
+                    favorite_border
+                </span>
+                <span class="material-icons mg-right-xs icon-primary">
+                    share
+                </span>
+                <span class="material-icons icon-primary">
+                    more_vert
+                </span>
+            </div>
+        </footer>
+    </article><br />
+
+    <h3>text with image card-large</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-primary">
+            close
+        </span>
+        <main>
+            <img src='./assets/card-img-2.jpg' class='img-fit-cover' />
+            <header class='pd-xs'>
+                <p class='txt-lg txt-500 txt-cap txt-primary'>our changing planet</p>
+                <p class='txt-cap txt-primary txt-md'>by Kurt Wagner</p>
+            </header>
+            <p class='card-txtw-md txt-off-primary txt-md pd-xs'>Visit ten places on our planet that are undergoing the
+                biggest changes today.
+            </p>
+        </main>
+        <footer class='flx flx-maj-stretch pd-xs'>
+            <div>
+                <button class='txt-md btn-solid txt-secondary bg-secondary txt-ucase pd-xs'>
+                    buy
+                </button>
+                <button class='txt-md btn-txt txt-primary txt-ucase pd-xs'>
+                    add to cart
+                </button>
+            </div>
+            <div class='flx flx-min-center'>
+                <span class="material-icons mg-right-xs icon-primary">
+                    favorite_border
+                </span>
+                <span class="material-icons mg-right-xs icon-primary">
+                    share
+                </span>
+                <span class="material-icons icon-primary">
+                    more_vert
+                </span>
+            </div>
+        </footer>
+    </article><br />
+
+    <h3>text overlay card</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-primary">
+            close
+        </span>
+        <header class='pd-s pos-absolute t-0'>
+            <p class='txt-md txt-cap txt-500 txt-primary bg-primary'>our changing planet</p>
+            <p class='txt-md txt-cap txt-primary bg-primary'>by Kurt Wagner</p>
+        </header>
+        <main>
+            <img src='./assets/card-img.jpg' class='img-fit-cover' />
+            <p class='txt-off-primary card-txtw-s txt-md pd-xs'>Visit ten places on our planet that are undergoing the
+                biggest changes today.
+            </p>
+        </main>
+        <footer class='flx flx-maj-stretch pd-xs'>
+            <div>
+                <button class='txt-md btn-solid txt-secondary bg-secondary txt-ucase pd-xs'>
+                    buy
+                </button>
+                <button class='txt-md btn-txt txt-primary txt-ucase pd-xs'>
+                    add to cart
+                </button>
+            </div>
+            <div class='flx flx-min-center'>
+                <span class="material-icons mg-right-xs icon-primary">
+                    favorite_border
+                </span>
+                <span class="material-icons mg-right-xs icon-primary">
+                    share
+                </span>
+                <span class="material-icons mg-right-xs icon-primary">
+                    more_vert
+                </span>
+            </div>
+        </footer>
+    </article><br />
+
+    <h3>header first card</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-primary">
+            close
+        </span>
+        <main class='flx flx-column'>
+            <img src='./assets/card-img.jpg' class='img-fit-cover' />
+            <header class='flx-order-start pd-s'>
+                <p class='txt-md txt-cap txt-500 txt-primary'>our changing planet</p>
+                <p class='txt-md txt-cap txt-primary'>by Kurt Wagner</p>
+            </header>
+            <p class='txt-off-primary txt-md card-txtw-s pd-xs'>Visit ten places on our planet that are undergoing the
+                biggest changes today.
+            </p>
+        </main>
+        <footer class='flx flx-maj-stretch pd-xs'>
+            <div>
+                <button class='txt-md btn-solid txt-secondary bg-secondary txt-ucase pd-xs'>
+                    buy
+                </button>
+                <button class='txt-md btn-txt txt-primary txt-ucase pd-xs'>
+                    add to cart
+                </button>
+            </div>
+            <div class='flx flx-min-center'>
+                <span class="material-icons mg-right-xs icon-primary">
+                    favorite_border
+                </span>
+                <span class="material-icons mg-right-xs icon-primary">
+                    share
+                </span>
+                <span class="material-icons icon-primary">
+                    more_vert
+                </span>
+            </div>
+        </footer>
+    </article><br />
+
+    <h3>horizontal card</h3>
+    <article class='card-dim card-shadow-xs pos-relative'>
+        <span class="material-icons pos-absolute tr-1 icon-primary">
+            close
+        </span>
+        <main class='flx flx-row'>
+            <img src='./assets/card-img.jpg' class='img-fit-cover' />
+            <div class='flx-grow-1 pd-s flx flx-column flx-maj-stretch'>
+                <div>
+                    <p class='txt-md txt-cap text-500 txt-primary'>our changing planet</p>
+                    <p class='txt-md txt-cap txt-primary'>by Kurt Wagner</p>
+                </div>
+                <p class='txt-off-primary txt-md card-txtw-s mg-top-md'>Visit ten places on our planet that are
+                    undergoing the biggest changes today.
+                </p>
+                <button
+                    class='txt-md btn-solid btn-width-full txt-secondary bg-secondary txt-ucase pd-xs mg-top-md'>read</button>
+            </div>
+        </main>
+    </article><br />
+
+
+    <!-- Grids component variants -->
+
 
     <h1>Grids responsive at 900px width</h1>
     <h3>with two items</h3>
     <section class='grid grid-maxcols-2'>
-        <div class='grid-item1'>.</div>
-        <div class='grid-item2'>.</div>
+        <div class='grid-itm1 bg-off-primary'>1</div>
+        <div class='grid-itm2 bg-off-secondary'>2</div>
     </section>
     <h3>with 3 items</h3>
     <section class='grid grid-maxcols-3'>
-        <div class='grid-item1'>.</div>
-        <div class='grid-item2'>.</div>
-        <div class='grid-item3'>.</div>
+        <div class='grid-itm1 bg-off-primary'>1</div>
+        <div class='grid-itm2 bg-off-secondary'>2</div>
+        <div class='grid-itm3 bg-off-primary'>3</div>
+    </section>
+    <h3>with 4 items</h3>
+    <section class='grid grid-maxcols-4'>
+        <div class='grid-itm1 bg-off-primary'>1</div>
+        <div class='grid-itm2 bg-primary'>2</div>
+        <div class='grid-itm3 bg-off-primary'>3</div>
+        <div class='grid-itm4 bg-off-secondary'>4</div>
     </section>
 
 
+    <!-- Toast component variants -->
 
-    <div class='toast padding-lg pos-fixed toast-position font-size-sm c-white letter-space-sm border-radius-md flex-horizontal-stretch flex-vertical-center'>
-        <div class='flex-vertical-center'>
-            Cannot send the photo. Check the internet connection.
-            <button class='padding-lg text-uppercase btn-filled border-radius-sm no-border c-white'>retry</button>
+
+    <div class="toast-container pos-fixed toast-pos flx flx-center">
+        <div class='toast-md txt-secondary bg-secondary pd-s flx flx-maj-stretch flx-min-center'>
+            <div class='txt-md'>
+                Cannot send the photo. Check the internet connection.
+                <button class='pd-xs txt-ucase txt-600 btn-txt bg-secondary txt-secondary'>retry</button>
+            </div>
+            <span class='material-icons icon-secondary'>close</span>
         </div>
-        <span class='icon-close material-icons'>close</span>
     </div>
+
+    <!-- hamburger menu -->
+
+    <h1>hamburger menu</h1>
+
+    <header class="flx flx-min-center flx-maj-start pd-s bg-off-primary">
+        <nav id="nav-big" class="flx flx-min-center">
+            <p class="txt-primary mg-right-s">profile</p>
+            <p class="txt-primary mg-right-s">feed</p>
+            <p class="txt-primary mg-right-s">order</p>
+            <p class="txt-primary">messages</p>
+        </nav>
+        <div class="pos-relative">
+            <span id="btn-ham" class="material-icons icon-primary">
+                menu
+            </span>
+            <nav id="nav-small" class="flx flx-column flx-min-center bg-off-primary pd-s pos-absolute z-10 tl-0">
+                <button id="btn-close-small" class="btn-txt bg-off-primary pd-xs">
+                    <span class="material-icons mg-btm-s">close</span>
+                </button>
+                <p class="txt-primary txt-md txt-cap mg-btm-xs">profile</p>
+                <p class="txt-primary txt-md txt-cap mg-btm-xs">feed</p>
+                <p class="txt-primary txt-md txt-cap mg-btm-xs">order</p>
+                <p class="txt-primary txt-md txt-cap mg-btm-xs">messages</p>
+            </nav>
+        </div>
+    </header>
 
 </body>
 <script src='./script.js'></script>
+
 </html>

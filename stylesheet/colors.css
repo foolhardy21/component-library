@@ -1,0 +1,88 @@
+:root {
+
+    /* color variables */
+    
+    --clr-primary: #ffffff;
+    --clr-off-primary: #CCCAC9;
+    --clr-secondary: #000000;
+    --clr-off-secondary: #323232;
+    --clr-accent: #e91c23;
+    
+    --clr-warning: #FFCE00;
+    --clr-success: #4caf50;
+    --clr-error: #f44336;
+}
+
+
+/* colors for text  */
+
+/* primary text is dark and secondary text is light */
+
+.txt-primary {
+    color: var(--clr-secondary);
+}
+
+.txt-secondary {
+    color: var(--clr-primary);
+}
+
+.txt-off-primary {
+    color: var(--clr-off-secondary);
+}
+
+.txt-off-secondary {
+    color: var(--clr-off-primary);
+}
+
+.txt-accent {
+    color: var(--clr-accent);
+}
+
+.txt-err {
+    color: var(--clr-error);
+}
+
+.txt-warn {
+    color: var(--clr-warning);
+}
+
+.txt-success {
+    color: var(--clr-success);
+}
+
+
+/* colors for backgrounds  */
+
+/* primary background is light and secondary background is dark */
+
+.bg-primary {
+    background: var(--clr-primary);
+}
+
+.bg-off-primary {
+    background: var(--clr-off-primary);
+}
+
+.bg-off-secondary {
+    background: var(--clr-off-secondary);
+}
+
+.bg-secondary {
+    background: var(--clr-secondary);
+}
+
+.bg-accent {
+    background: var(--clr-accent);
+}
+
+.bg-err {
+    background: var(--clr-error);
+}
+
+.bg-warn {
+    background: var(--clr-warning);
+}
+
+.bg-success {
+    background: var(--clr-success);
+}

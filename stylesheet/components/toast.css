@@ -1,0 +1,23 @@
+.toast-container {
+    width: 100%;
+}
+
+/* toast position */
+
+.toast-pos {
+    bottom: 1rem;
+}
+
+/* toast sizes */
+
+.toast-s {
+    width: 20rem;
+}
+
+.toast-md {
+    width: 35rem;
+}
+
+.toast-lg {
+    width: 50rem;
+}

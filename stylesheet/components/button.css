@@ -1,0 +1,40 @@
+/* text button */
+
+.btn-txt {
+    border-style: none;
+    background: transparent;
+}
+
+.btn-txt:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* solid button */
+
+.btn-solid {
+    border-style: none;
+}
+
+.btn-solid:hover {
+    cursor: pointer;
+    background: var(--clr-off-secondary);
+}
+
+/* outlined button */
+
+.btn-outlined {
+    background: transparent;
+}
+
+.btn-outlined:hover {
+    cursor: pointer;
+    /* color: var(--clr-off-secondary);
+    border-color: var(--clr-off-secondary); */
+}
+
+/* button full width */
+
+.btn-width-full {
+    width: 100%;
+}
