@@ -1,0 +1,17 @@
+/* list sizes */
+
+.list-s {
+    width: 10rem;
+}
+
+.list-md {
+    width: 20rem;
+}
+
+.list-lg {
+    width: 40rem;
+}
+
+.list-xlg {
+    width: 100%;
+}

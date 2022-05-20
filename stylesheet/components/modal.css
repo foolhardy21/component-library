@@ -1,0 +1,19 @@
+.modal-container {
+    background: rgb(0,0,0,0.4); /* modal container background opacity */
+    width: 100vw;
+    height: 100vh;
+}
+
+/* modal sizes */
+
+.modal-s {
+    width: 20rem;
+}
+
+.modal-md {
+    width: 30rem;
+}
+
+.modal-lg {
+    width: 40rem;
+}

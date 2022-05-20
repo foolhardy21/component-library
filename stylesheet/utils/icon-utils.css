@@ -1,0 +1,19 @@
+/* primary icon is dark and secondary icon is light */
+
+.icon-primary {
+    color: var(--clr-secondary);
+}
+
+.icon-primary:hover {
+    cursor: pointer;
+    color: var(--clr-off-secondary);
+}
+
+.icon-secondary {
+    color: var(--clr-primary);
+}
+
+.icon-secondary:hover {
+    cursor: pointer;
+    color: var(--clr-off-primary);
+}

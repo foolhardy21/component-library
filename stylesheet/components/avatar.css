@@ -1,0 +1,26 @@
+/* negative margins for avatar group  */
+
+.avt-overlap-xs {
+    margin-left: -0.5rem;
+}
+
+.avt-overlap-s {
+    margin-left: -1rem;
+}
+
+.avt-overlap-md {
+    margin-left: -1.5rem;
+}
+
+.avt-overlap-lg {
+    margin-left: -2rem;
+}
+
+.avt-overlap-xlg {
+    margin-left: -3rem;
+}
+
+.avt-overlap-xxlg {
+    margin-left: -4rem;
+}
+

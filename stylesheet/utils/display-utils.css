@@ -1,54 +1,56 @@
-.inline-block {
+.dis-inblock {
     display: inline-block;
 }
 
-.flex-row {
+/* flex display */
+
+.flx {
     display: flex;
+}
+
+.flx-row {
     flex-direction: row;
 }
 
-.flex-column {
-    display: flex;
+.flx-column {
     flex-direction: column;
 }
 
-.flex-order-start {
+.flx-order-start {
     order: -1;
 }
 
-.flex-grow-1 {
+.flx-grow-1 {
     flex-grow: 1;
 }
 
-.flex-center {
-    display: flex;
+.flx-center {
     align-items: center;
     justify-content: center;
 }
 
-.flex-vertical-center {
-    display: flex;
+.flx-min-center {
     align-items: center;
 }
 
-.flex-horizontal-stretch {
-    display: flex;
+.flx-maj-stretch {
     justify-content: space-between;
 }
 
-.flex-horizontal-start {
-    display: flex;
+.flx-maj-even {
+    justify-content: space-evenly;
+}
+
+.flx-maj-start {
     justify-content: flex-start;
 }
 
-.flex-horizontal-end {
-    display: flex;
+.flx-maj-end {
     justify-content: flex-end;
 }
 
-.no-display {
-    display: none;
-}
+
+/* grid display */
 
 .grid {
     display: grid;
@@ -66,22 +68,25 @@
     grid-template-areas: "item1 item2 item3 item4";
 }
 
-.grid-item1 {
+.grid-itm1 {
     grid-area: item1;
-    background: var(--c-lightblue);
 }
 
-.grid-item2 {
+.grid-itm2 {
     grid-area: item2;
-    background: var(--c-blue);
 }
 
-.grid-item3 {
+.grid-itm3 {
     grid-area: item3;
-    background: var(--c-gray);
 }
 
-.grid-item4 {
+.grid-itm4 {
     grid-area: item4;
-    background: var(--c-darkgray);
+}
+
+
+/* no display */
+
+.dis-hidden {
+    display: none;
 }

@@ -1,0 +1,28 @@
+/* card box shadow */
+
+.card-shadow-xs {
+    box-shadow: 0 0 4px -2px;
+}
+
+
+/* card container dimensions */
+
+.card-dim {
+    width: max-content;
+    height: max-content;
+}
+
+
+/* card text widths */
+
+.card-txtw-xs {
+    width: 20ch;
+}
+
+.card-txtw-s {
+    width: 30ch;
+}
+
+.card-txtw-md {
+    width: 40ch;
+}
